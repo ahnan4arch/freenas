@@ -8933,7 +8933,6 @@ msgid "Jail root is not configured!"
 msgstr "Jail root neconfigurat!"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Tip sistem fişiere"
 
@@ -9020,7 +9019,6 @@ msgstr "Confirmă parola Administratorului de Domeniu"
 
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "Fişier chei Kerberos"
 
@@ -9640,7 +9638,6 @@ msgid "Certificate"
 msgstr "Certificat"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Parolă legătură Root"
 
@@ -9679,7 +9676,6 @@ msgstr "Nume controler domeniu"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "Certificat SSL"
 
@@ -10086,7 +10082,6 @@ msgid "Idmap backend for winbind."
 msgstr "Backend Idmap pentru winbind."
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Iniţiator"
 
@@ -11481,7 +11476,6 @@ msgid "Verifying"
 msgstr "Verificare"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "Starea volumului %(volume)s este %(status)s: %(message)s"
 
@@ -11975,7 +11969,6 @@ msgstr ""
 "Numele de bază va fi automat ataşat atunci cînd nu începe cu şirul 'iqn.'."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Canal"
 
@@ -12077,7 +12070,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "Modificările dumneavoastră au fost aplicate cu succes!"
 
@@ -12792,33 +12784,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Adresa IP controler"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Port remote"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Nume utilizator"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Schimbare parolă"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "Versiune"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Configuraţie"
 
@@ -13454,3 +13440,587 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:655
+#, fuzzy
+msgid "Volume is not encrypted."
+msgstr "Volum importat"
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Nume utilizator"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Nume grup"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Valoarea FQDN pentru controlerul de domeniu de utilizat."
+
+#: jails/forms.py:259
+msgid "You can either enter dhcp or static ip but not both"
+msgstr ""
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Acest IP este deja în folosință."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "Comunitatea trebuie să conțină numai caractere alfanumerice, _ sau -"
+
+#: services/forms.py:1505
+#, fuzzy
+msgid "Zvol \"%s\" does not exist"
+msgstr "Zona jail nu există"
+
+#: services/models.py:148
+#: services/models.py:304
+#, fuzzy
+msgid ""
+"Use this option to override the username ('nobody' by default) which will be "
+"used for access to services which are specified as guest. Whatever "
+"privileges this user has will be available to any client connecting to the "
+"guest service. This user must exist in the password file, but does not "
+"require a valid login. The user root cannot be used as guest account."
+msgstr ""
+"Folosiți această opţiune pentru a suprascrie numele de utilizator (implicit "
+"'nobody') care va fi folosit pentru a accesa serviciile specifice "
+"utilizatorului guest. Indiferent de privilegiile avute de utilizator ele vor "
+"fi disponibile oricărui client care se conectează la serviciul de tip guest. "
+"Acest utilizator trebuie să existe în fişierul de parole, dar nu este "
+"necesară o logare validă. Utilizatorul root nu poate fi folosit ca și cont "
+"guest."
+
+#: services/models.py:177
+#, fuzzy
+msgid "These parameters are added to the [global] section of smb.conf"
+msgstr ""
+"Aceşti parametrii sunt adăugaţi în secţiunea [global] a fişierului smb.conf"
+
+#: services/models.py:220
+#, fuzzy
+msgid ""
+"Specifies whether Samba should use (expensive) hostname lookups or use IP "
+"addresses instead. An example place where hostname lookups are currently "
+"used is when checking the hosts deny and hosts allow."
+msgstr ""
+"Specifică dacă samba va utiliza identificarea după nume (procedeu consumator "
+"de resurse) sau utilizarea adreselor ip. Un exemplu de utilizare pentru "
+"identificarea după nume este cel pentru stabilirea sistemelor acceptate și "
+"cele refuzate."
+
+#: services/models.py:244
+msgid ""
+"This boolean parameter controls the behaviour of smbd(8) when receiving a "
+"protocol request of \"open for execution\" from a Windows client. With Samba "
+"3.6 and older, the execution right in the ACL was not checked, so a client "
+"could execute a file even if it did not have execute rights on the file. In "
+"Samba 4.0, this has been fixed, so that by default, i.e. when this parameter "
+"is set to \"False\", \"open for execution\" is now denied when execution "
+"permissions are not present. If this parameter is set to \"True\", Samba "
+"does not check execute permissions on \"open for execution\", thus re-"
+"establishing the behavior of Samba 3.6 "
+msgstr ""
+
+#: services/models.py:265
+#, fuzzy
+msgid ""
+"IP addresses to bind to. If none specified, all available interfaces that "
+"are up will be listened on."
+msgstr ""
+"Adresa IP de atașat. Dacă nu este nimic specificat vor fi utilizate toate "
+"interfețele disponibile."
+
+#: services/models.py:296
+#, fuzzy
+msgid "Allows guest access to all Apple shares on this box."
+msgstr ""
+"Permite accesul de tip vizitator pentru toate partajările apple de pe server."
+
+#: services/models.py:315
+#, fuzzy
+msgid ""
+"IP addresses to advertise and listens to. If none specified, advertise the "
+"first IP address of the system, but to listen for any incoming request."
+msgstr ""
+"Adresa(ele) IP anunțate și utilizate. Dacă nu se specifică nimic va fi pusă "
+"la dispoziție prima adresă a sistemului, însă doar pentru cereri de intrare."
+
+#: services/models.py:333
+#, fuzzy
+msgid "Enable/disable home directories for AFP user."
+msgstr "Activează/dezactivează directorul Home pentru utilizatorii afp."
+
+#: services/models.py:343
+msgid "When set, overrides the default Home Share Name."
+msgstr ""
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:357
+#, fuzzy
+msgid "These parameters are added to the [Global] section of afp.conf"
+msgstr ""
+"Aceşti parametrii sunt adăugaţi în secţiunea [global] a fişierului smb.conf"
+
+#: services/models.py:362
+msgid ""
+"How to map the effective permissions of authenticated users: Rights ("
+"default, Unix-style permissions), Mode (ACLs), or None"
+msgstr ""
+
+#: services/models.py:383
+#, fuzzy
+msgid ""
+"Specifies how many servers to create. There should be enough to handle the "
+"maximum level of concurrency from clients, typically four to six."
+msgstr ""
+"Specifică cât servere să fie create. Ar trebui să fie atâtea cât să suporte "
+"un nivel maximum de cereri ale clienţilor, tipic de la patru la sase."
+
+#: services/models.py:421
+#, fuzzy
+msgid ""
+"Select the IP addresses to listen to for NFS requests. If left unchecked, "
+"NFS will listen on all available addresses."
+msgstr ""
+"Adresa(ele) IP anunțate și utilizate. Dacă nu se specifică nimic va fi pusă "
+"la dispoziție prima adresă a sistemului, însă doar pentru cereri de intrare."
+
+#: services/models.py:442
+#, fuzzy
+msgid ""
+"Forces the rpc.statd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+"Această opțiune forțează daemonul rpc.statd să utilizeze portul specificat "
+"atît pentru adrese IPv4 cît și IPv6."
+
+#: services/models.py:451
+#, fuzzy
+msgid ""
+"Force the rpc.lockd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+"Această opțiune forțează daemonul rpc.lockd să facă legătura la portul "
+"specificat pentru ambele moduri de adresare: IPv4 și IPv6."
+
+#: services/models.py:458
+msgid ""
+"Ignore the group membership sent on the wire by the NFS client and look up "
+"the group membership on the server.  Note that this option is mutually "
+"incompatible with the NFSv3 ownership model for NFSv4."
+msgstr ""
+
+#: services/models.py:467
+msgid "Enable/disable mountd logging into syslog."
+msgstr ""
+
+#: services/models.py:473
+msgid "Enable/disable statd and lockd logging into syslog."
+msgstr ""
+
+#: services/models.py:565
+#, fuzzy
+msgid ""
+"Size of extent: 0 means auto, a raw number is bytes, or suffix with KB, MB, "
+"or TB for convenience."
+msgstr ""
+"Dimensiunea extensiei. 0 înseamă auto, un număr oarecare reprezintă octeţii, "
+"puteţi folosi şi sufixe gen KB, MB, TB."
+
+#: services/models.py:573
+#, fuzzy
+msgid ""
+"Logical block length (512 by default). The recommended length for "
+"compatibility is 512."
+msgstr ""
+"Puteţi specifica lungimea blocului logic (implicit 512). Lungimea "
+"recomandată pentru compatibilitate este 512."
+
+#: services/models.py:581
+msgid ""
+"By default, the physical blocksize is reported as the ZFS block size, which "
+"can be up to 128K. Some initiators do not work with values above 4K. "
+"Checking this disables reporting the physical blocksize."
+msgstr ""
+
+#: services/models.py:597
+#: services/models.py:700
+#, fuzzy
+msgid "A description can be entered here for your reference."
+msgstr "Puteţi introduce aici un comentariu pentru referinţă."
+
+#: services/models.py:626
+msgid ""
+"RPM reported to initiators for this extent/LUN. The default is SSD because "
+"Windows will attempt to defrag non SSD devices.  This is a pathological "
+"worst-case situation for ZFS.  VMWare gives the option to use SSD LUNs as "
+"swap devices. There is some value to picking a non-SSD RPM if your extent is "
+"indeed not SSDs and the initiator will be VMWare."
+msgstr ""
+
+#: services/models.py:1441
+#, fuzzy
+msgid "Override the file creation mask (077 by default)."
+msgstr ""
+"Utilizaţi această opţiune pentru a înlocui crearea măşti fişierului ("
+"implicit 077)."
+
+#: services/models.py:1449
+#, fuzzy
+msgid "Override the directory creation mask (077 by default)."
+msgstr ""
+"Folosiți această opțiune pentru a suprascrie masca implicită (077) la "
+"crearea directoarelor."
+
+#: services/models.py:1479
+#, fuzzy
+msgid ""
+"Cause the server to display the network information for the specified "
+"address to the client, on the assumption that IP address or DNS host is "
+"acting as a NAT gateway or port forwarder for the server."
+msgstr ""
+"Serverul va afişa date despre reţeaua corespunzătoare adresei IP "
+"specificate,  plecând de la premiza că sistemul cu adresa IP sau numele DNS "
+"indicat acţionează ca un gateway NAT sau port forwarder pentru server."
+
+#: services/models.py:1935
+#, fuzzy
+msgid "Control the access a remote host has to this module"
+msgstr "Acesta controlează modul de acces al sistemului remote la acest modul."
+
+#: services/models.py:1941
+#, fuzzy
+msgid "Maximum number of simultaneous connections. Default is 0 (unlimited)."
+msgstr "Numărul maxim de conexiuni simultane. Implicit este 0 (nelimitat)"
+
+#: services/models.py:1948
+#, fuzzy
+msgid ""
+"Specify the user name for file transfers to and from that module. In "
+"combination with the 'Group' option, this determines which file permissions "
+"are available. Leave this field empty to use default settings."
+msgstr ""
+"Această opţiune specifică numele utilizatorului pentru care acest modul "
+"poate transfera fişiere. În combinaţie cu opţiunea 'Grup' ea determină care "
+"sînt permisiunile disponibile pentru fişiere. Lăsaţi cîmpul necompletat "
+"pentru setările implicite."
+
+#: services/models.py:1958
+#, fuzzy
+msgid ""
+"Specify the group name for file transfers to and from that module. Leave "
+"this field empty to use default settings."
+msgstr ""
+"Această opţiune specifică numele grupului pentru care acest modul poate "
+"transfera fişiere. Lăsaţi cîmpul necompletat pentru setările implicite."
+
+#: services/models.py:1964
+#, fuzzy
+msgid ""
+"This option is a comma, space, or tab delimited set of hosts which are "
+"permitted to access this module. You can specify the hosts by name or IP "
+"number. Leave this field empty to use default settings."
+msgstr ""
+"Această opţiune reprezintă o listă de sisteme, separate prin virgule, spaţii "
+"sau taburi, care au permisiunea de a accesa acest modul. Puteţi specifica "
+"sistemele prin nume sau prin adresa IP. Lăsaţi cîmpul necompletat pentru "
+"setările implicite."
+
+#: services/models.py:1972
+#, fuzzy
+msgid ""
+"A comma, space, or tab-delimited set of hosts which are NOT permitted to "
+"access this module. Where the lists conflict, the allow list takes "
+"precedence. In the event that it is necessary to deny all by default, use "
+"the keyword ALL (or the netmask 0.0.0.0/0) and then explicitly specify in "
+"the hosts allow parameter those hosts that should be permitted access. Leave "
+"this field empty to use default settings."
+msgstr ""
+"Această opţiune reprezintă o listă de sisteme, separate prin virgule, spaţii "
+"sau taburi, care NU au permisiunea de a accesa acest modul. Dacă apar "
+"conflicte între liste, lista de permisiuni are prioritate. Dacă aveţi nevoie "
+"să blocaţi accesul tuturor sistemelor în mod implicit, folosiţi cuvîntul "
+"'ALL' (sau masca de reţea 0.0.0.0/0) trecînd apoi în mod explicit fiecare "
+"sistem care are acces. Lăsaţi cîmpul necompletat pentru setările implicite."
+
+#: services/models.py:1984
+#, fuzzy
+msgid ""
+"These parameters will be added to the module configuration in rsyncd.conf."
+msgstr ""
+"Aceşti parametri vor fi adaugaţi la configuraţia modulului din inadyn.conf."
+
+#: services/models.py:2006
+#, fuzzy
+msgid ""
+"Set the interval between disk checks to N minutes. The default is 30 minutes."
+msgstr ""
+"Stabileşte intervalul între două verificări ale discului la N minute. "
+"Implicit timpul este de 30 de minute"
+
+#: services/models.py:2018
+#, fuzzy
+msgid ""
+"Report if the temperature has changed by at least N degrees Celsius since "
+"the last report. 0 to disable."
+msgstr ""
+"Raportează dacă temperatura s-a modificat cu cel puţin N grade Celsius de la "
+"ultima verificare. Introduceţi valoarea 0 entru dezactivare"
+
+#: services/models.py:2024
+#, fuzzy
+msgid ""
+"Report as informational in the system log if the temperature is greater or "
+"equal than N degrees Celsius. 0 to disable."
+msgstr ""
+"Raportează în log ca informare dacă temperatura sistemului este mai mare sau "
+"egală cu N grade Celsius. 0 pentru dezactivare"
+
+#: services/models.py:2031
+#, fuzzy
+msgid ""
+"Report as critical in the system log and send an email if the temperature is "
+"greater or equal than N degrees Celsius. 0 to disable."
+msgstr ""
+"Raportează în log ca informație critică și trimite un email de avertizare "
+"dacă temperatura este mai mare sau egală cu N grade Celsius. 0 pentru "
+"dezactivare"
+
+#: services/models.py:2039
+#, fuzzy
+msgid "Destination email address. Separate email addresses with commas."
+msgstr "Adrese email de destinaţie. Separaţi adresele prin virgulă"
+
+#: services/models.py:2184
+msgid ""
+"The port on which WebDAV will run.<br>Do not use a port that is already in "
+"use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2193
+msgid ""
+"The port on which Secure WebDAV will run.<br>Do not use a port that is "
+"already in use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2210
+msgid ""
+"Type of HTTP Authentication for WebDAV<br>Basic Auth: Password is sent over "
+"the network as plaintext (Avoid if HTTPS is disabled) <br>Digest Auth: The "
+"hash of the password is sent over the network (more secure)."
+msgstr ""
+
+#: sharing/admin.py:80
+msgid ""
+"full_audit VFS object is known to have file transfer issues with Windows 10. "
+"Do you wish to continue?"
+msgstr ""
+
+#: sharing/forms.py:464
+msgid "This option can only be used for datasets."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: storage/admin.py:144
+#: storage/forms.py:1196
+#: storage/forms.py:1429
+#: storage/forms.py:1513
+#, fuzzy
+msgid "Comments"
+msgstr "Comentariu"
+
+#: storage/forms.py:2011
+#, fuzzy
+msgid "Setup mode"
+msgstr "Mod securizat"
+
+#: storage/forms.py:2013
+#, fuzzy
+msgid "Manual"
+msgstr "Aplicare actualizare"
+
+#: storage/forms.py:2014
+#, fuzzy
+msgid "Semi-automatic"
+msgstr "Autostart"
+
+#: storage/forms.py:2025
+#, fuzzy
+msgid "Remote HTTP/HTTPS Port"
+msgstr "Port SSH remote"
+
+#: storage/forms.py:2030
+#, fuzzy
+msgid "Remote HTTPS"
+msgstr "Sistem remote"
+
+#: storage/forms.py:2035
+#, fuzzy
+msgid "Remote Auth Token"
+msgstr "Cheie sistem remote"
+
+#: storage/forms.py:2222
+msgid "I'm aware this will destroy snapshots of this zvol"
+msgstr ""
+
+#: storage/forms.py:2187
+#, fuzzy
+msgid "Token is invalid."
+msgstr "Utilizatorul %s este invalid"
+
+#: storage/forms.py:2191
+#, fuzzy
+msgid "Failed to connect to remote: %s"
+msgstr "Eroare creare set date %(name)s: %(error)s"
+
+#: system/forms.py:1003
+#, fuzzy
+msgid "Invalid syslog server format"
+msgstr "Service pack invalid"
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Mod acces"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Secret"
+
+#: system/models.py:348
+msgid "Use FQDN for logging"
+msgstr ""
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Nume domeniu autentificare"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Service pack invalid"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Prefix invalid"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Aveți nevoie de un keytab."
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+#, fuzzy
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+"Dezactivarea opțiuniii va opri orice acțiune nouă de replicare să fie "
+"programată. Nu va opri însă replicările active sau deja programate."
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/forms.py:96
+#, fuzzy
+msgid "Folder \"%s\" does not exist."
+msgstr "Zona jail nu există"
+
+#: tasks/models.py:52
+#, fuzzy
+msgid "Push - From local to remote. Pull - From remote to local."
+msgstr ""
+"Push - De la sistemul local la cel remote. Pull - de la sistemul remote la "
+"cel local."
+
+#: tasks/views.py:53
+#, fuzzy
+msgid "The cloud sync process has started"
+msgstr "Procesul de verificare a început"
+
+#: templates/storage/replication_datagrid.html:17
+#: templates/storage/replication_datagrid.html:19
+msgid "Temporary Auth Token"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "Activaţi acest serviciu?"

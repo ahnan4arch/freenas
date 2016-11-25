@@ -1168,7 +1168,7 @@ msgid "You must turn off Plugins service before proceeding"
 msgstr ""
 
 #: plugins/forms.py:183
-#, fuzzy, python-format
+#, python-format
 msgid "The path %s already exists"
 msgstr "群組的 gid 已經存在！"
 
@@ -1189,12 +1189,10 @@ msgid "Plugins jail path"
 msgstr ""
 
 #: plugins/forms.py:218
-#, fuzzy
 msgid "Jail IPv4 Address"
 msgstr "IPv4 地址"
 
 #: plugins/forms.py:222
-#, fuzzy
 msgid "Jail IPv4 Netmask"
 msgstr "IPv4 Netmask"
 
@@ -1215,7 +1213,7 @@ msgid "The full path cannot exceed 88 characters"
 msgstr ""
 
 #: plugins/forms.py:336
-#, fuzzy, python-format
+#, python-format
 msgid "The path could not be mounted %s"
 msgstr "緩存無法重建"
 
@@ -1312,7 +1310,6 @@ msgid "Plugin successfully updated."
 msgstr "%s 已成功更新."
 
 #: plugins/views.py:80
-#, fuzzy
 msgid "Plugin successfully removed."
 msgstr "%s 成功加入."
 
@@ -1335,7 +1332,6 @@ msgid "There was a problem importing the jail."
 msgstr ""
 
 #: plugins/views.py:204
-#, fuzzy
 msgid "Jail successfully imported."
 msgstr "%s 已成功更新."
 
@@ -1365,12 +1361,10 @@ msgid "The NFS service failed to reload."
 msgstr "NFS服務重新啟動時無法恢復"
 
 #: services/forms.py:157
-#, fuzzy
 msgid "This IP already exists."
 msgstr "群組的 gid 已經存在！"
 
 #: services/forms.py:164
-#, fuzzy
 msgid "The Plugins Jail service failed to reload."
 msgstr "重啟服務失敗"
 
@@ -1602,7 +1596,7 @@ msgid "Your Portal Group ID cannot be higher than %d"
 msgstr "您的入口群組編號 (Portal Group ID) 不可大於 %d"
 
 #: services/forms.py:1001
-#, fuzzy, python-format
+#, python-format
 msgid "Your Group ID cannot be higher than %d"
 msgstr "您的群組編號 (Group ID) 不可大於 %d"
 
@@ -2315,12 +2309,10 @@ msgid ""
 msgstr ""
 
 #: services/models.py:821
-#, fuzzy
 msgid "Jail IP address"
 msgstr "IPv4 地址"
 
 #: services/models.py:825
-#, fuzzy
 msgid "Jail IP Netmask"
 msgstr "IPv4 Netmask"
 
@@ -2409,7 +2401,6 @@ msgid ""
 msgstr ""
 
 #: services/models.py:933
-#, fuzzy
 msgid "UPS Master User Password"
 msgstr "分享密碼"
 
@@ -2757,7 +2748,6 @@ msgid "Administrator Name"
 msgstr "管理員名稱"
 
 #: services/models.py:1264
-#, fuzzy
 msgid "Domain Administrator account name"
 msgstr "管理員名稱"
 
@@ -2766,7 +2756,6 @@ msgid "Administrator Password"
 msgstr "管理員密碼"
 
 #: services/models.py:1269
-#, fuzzy
 msgid "Domain Administrator account password."
 msgstr "管理員密碼"
 
@@ -3003,7 +2992,6 @@ msgid ""
 msgstr ""
 
 #: services/models.py:1475
-#, fuzzy
 msgid "Informal"
 msgstr "正常"
 
@@ -3022,7 +3010,6 @@ msgid "Email to report"
 msgstr ""
 
 #: services/models.py:1487
-#, fuzzy
 msgid "Destination email address. Separate email addresses by semi-colon"
 msgstr "目的電郵地址。使用分號\";\"分開不同電郵地址"
 
@@ -3044,12 +3031,10 @@ msgid "Add Device Extent"
 msgstr ""
 
 #: services/nav.py:79
-#, fuzzy
 msgid "View Device Extents"
 msgstr "檢視所有靜態路由"
 
 #: services/nav.py:92
-#, fuzzy
 msgid "File Extents"
 msgstr "查看所有用戶"
 
@@ -3059,7 +3044,6 @@ msgid "Add File Extent"
 msgstr ""
 
 #: services/nav.py:118
-#, fuzzy
 msgid "View File Extents"
 msgstr "查看所有用戶"
 
@@ -3711,12 +3695,10 @@ msgid "Reserved space for this volume"
 msgstr ""
 
 #: storage/forms.py:842
-#, fuzzy
 msgid "ZFS Volume Name"
 msgstr "ZFS Volume"
 
 #: storage/forms.py:845
-#, fuzzy
 msgid "Size for this ZFS Volume"
 msgstr "ZFS Volume"
 
@@ -3933,7 +3915,7 @@ msgstr ""
 
 #: storage/models.py:281 system/models.py:409 system/models.py:618
 #: system/models.py:705
-#, fuzzy, python-format
+#, python-format
 msgid "Every %s days"
 msgstr "每天"
 
@@ -4120,18 +4102,15 @@ msgid "Storage"
 msgstr ""
 
 #: storage/nav.py:24
-#, fuzzy
 msgid "View Snapshots"
 msgstr "查看所有用戶"
 
 #: storage/nav.py:34
-#, fuzzy
 msgid "View ZFS Scrubs"
 msgstr "查看所有群組"
 
 #: storage/nav.py:41 templates/storage/volumes.html:4
 #: templates/storage/volumes.html.py:6
-#, fuzzy
 msgid "Volume Manager"
 msgstr "ZFS Volume"
 
@@ -4163,7 +4142,6 @@ msgstr "查看所有用戶"
 
 #: storage/nav.py:108 templates/storage/volumes.html:129
 #: templates/storage/volumes.html.py:133
-#, fuzzy
 msgid "Create ZFS Volume"
 msgstr "ZFS Volume"
 
@@ -4193,7 +4171,6 @@ msgid "Volume successfully added."
 msgstr "%s 成功加入."
 
 #: storage/views.py:254
-#, fuzzy
 msgid "S.M.A.R.T. Extra Options"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -4251,7 +4228,6 @@ msgid "Rollback successful."
 msgstr ""
 
 #: storage/views.py:634
-#, fuzzy
 msgid "Snapshot successfully added."
 msgstr "%s 已成功刪除."
 
@@ -4308,7 +4284,6 @@ msgid "You must specify a number between 1 and 65535, inclusive."
 msgstr ""
 
 #: system/forms.py:216
-#, fuzzy
 msgid "Number is required."
 msgstr "必填項目"
 
@@ -4374,7 +4349,6 @@ msgid "Protocol"
 msgstr ""
 
 #: system/models.py:50
-#, fuzzy
 msgid "WebGUI Address"
 msgstr "IPv4 地址"
 
@@ -5298,7 +5272,6 @@ msgid "Plugin info"
 msgstr ""
 
 #: templates/plugins/index.html:39
-#, fuzzy
 msgid "Edit Plugin"
 msgstr "儲存碟"
 
@@ -5341,7 +5314,6 @@ msgid "Delete Mount Point"
 msgstr ""
 
 #: templates/plugins/mountpoints.html:32
-#, fuzzy
 msgid "No mount points defined"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -5417,7 +5389,6 @@ msgid "NFS Settings"
 msgstr ""
 
 #: templates/services/core.html:103 templates/services/core.html.py:105
-#, fuzzy
 msgid "Plugins Settings"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -5471,7 +5442,6 @@ msgid "Portals"
 msgstr ""
 
 #: templates/services/iscsi.html:14
-#, fuzzy
 msgid "Authorized Initiators"
 msgstr "已授權網絡"
 
@@ -5492,7 +5462,6 @@ msgid "Associated Targets"
 msgstr ""
 
 #: templates/services/iscsi_assoctargets.html:31
-#, fuzzy
 msgid "No associated targets defined"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -5517,7 +5486,6 @@ msgid "Authorized Network"
 msgstr ""
 
 #: templates/services/iscsi_authini.html:35
-#, fuzzy
 msgid "No authorized initiators defined"
 msgstr "已授權網絡"
 
@@ -5527,7 +5495,6 @@ msgid "Add Authorized Initiator"
 msgstr ""
 
 #: templates/services/iscsi_dextents.html:33
-#, fuzzy
 msgid "No device extents defined"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -5537,12 +5504,10 @@ msgid "Add Extent"
 msgstr ""
 
 #: templates/services/iscsi_extents.html:5
-#, fuzzy
 msgid "File Extent"
 msgstr "查看所有用戶"
 
 #: templates/services/iscsi_extents.html:33
-#, fuzzy
 msgid "No extents defined"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -5563,7 +5528,6 @@ msgid "Delete Portal"
 msgstr ""
 
 #: templates/services/iscsi_portals.html:39
-#, fuzzy
 msgid "No portals defined"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -5653,7 +5617,6 @@ msgid "No shares defined"
 msgstr ""
 
 #: templates/sharing/apple.html:49 templates/sharing/apple.html.py:51
-#, fuzzy
 msgid "Add Apple (AFP) Share"
 msgstr "UNIX 字符集"
 
@@ -5679,7 +5642,6 @@ msgid "Mountpoint"
 msgstr ""
 
 #: templates/sharing/unix.html:29
-#, fuzzy
 msgid "Edit UNIX (NFS) Share"
 msgstr "UNIX 字符集"
 
@@ -5688,7 +5650,6 @@ msgid "Delete UNIX (NFS) Share"
 msgstr ""
 
 #: templates/sharing/unix.html:49 templates/sharing/unix.html.py:51
-#, fuzzy
 msgid "Add UNIX (NFS) Share"
 msgstr "UNIX 字符集"
 
@@ -5840,7 +5801,6 @@ msgid "No ZFS replication available"
 msgstr ""
 
 #: templates/storage/scrub.html:42
-#, fuzzy
 msgid "No scrub tasks defined."
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -5849,7 +5809,6 @@ msgid "Add ZFS Scrub Task"
 msgstr ""
 
 #: templates/storage/scrub.html:50
-#, fuzzy
 msgid "Add ZFS Scrub"
 msgstr "添加ZFS量"
 
@@ -5999,7 +5958,6 @@ msgid "Destroy Dataset"
 msgstr ""
 
 #: templates/storage/volumes.html:248 templates/storage/volumes.html.py:252
-#, fuzzy
 msgid "Destroy ZFS Volume"
 msgstr "ZFS Volume"
 
@@ -6053,7 +6011,7 @@ msgid "Replace Disk"
 msgstr "更換磁盤"
 
 #: templates/storage/zvols.html:3
-#, fuzzy, python-format
+#, python-format
 msgid "Create ZFS volume on %(name)s"
 msgstr "ZFS Volume"
 
@@ -6125,7 +6083,6 @@ msgid "iBurst"
 msgstr ""
 
 #: templates/system/ntpserver.html:38
-#, fuzzy
 msgid "No NTP servers defined."
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -6153,12 +6110,10 @@ msgid "History"
 msgstr ""
 
 #: templates/system/rsync.html:5
-#, fuzzy
 msgid "Local Path"
 msgstr "本機用戶"
 
 #: templates/system/rsync.html:6
-#, fuzzy
 msgid "Remote"
 msgstr "遠端監視器"
 
@@ -6207,17 +6162,14 @@ msgid "Unknown"
 msgstr ""
 
 #: templates/system/smarttest.html:38
-#, fuzzy
 msgid "No S.M.A.R.T. tests defined"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
 #: templates/system/smarttest.html:44
-#, fuzzy
 msgid "Add S.M.A.R.T. Test"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
 #: templates/system/smarttest.html:46
-#, fuzzy
 msgid "Add S.M.A.R.T. test"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
@@ -6329,19 +6281,15 @@ msgstr ""
 #~ msgid "Only allow guest access"
 #~ msgstr "只容許訪客存取"
 
-#, fuzzy
 msgid "Invalid service pack"
 msgstr "使用 Service Pack"
 
-#, fuzzy
 msgid "View S.M.A.R.T. Tests"
 msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
 
-#, fuzzy
 msgid "View Sysctls"
 msgstr "查看所有用戶"
 
-#, fuzzy
 msgid "View Tunables"
 msgstr "查看所有用戶"
 
@@ -6409,18 +6357,15 @@ msgstr "停用密碼"
 msgid "SMB Shares"
 msgstr "UNIX 字符集"
 
-#, fuzzy
 msgid "Loader"
 msgstr "平均運作負荷"
 
-#, fuzzy
 msgid "Loaders"
 msgstr "平均運作負荷"
 
 msgid "Export Volume"
 msgstr "出口量"
 
-#, fuzzy
 msgid "successfully deleted"
 msgstr "%s 已成功刪除."
 
@@ -6430,7 +6375,6 @@ msgstr "%s 已成功刪除."
 msgid "IPv6 Netmask"
 msgstr "IPv6 Netmask"
 
-#, fuzzy
 msgid "Docs"
 msgstr "版本"
 
@@ -6443,7 +6387,6 @@ msgstr "版本"
 #~ msgid "Admin user"
 #~ msgstr "管理員用戶"
 
-#, fuzzy
 msgid "ZVol Name"
 msgstr "全名"
 
@@ -6688,7 +6631,6 @@ msgid "Jail successfully started."
 msgstr "%s 已成功更新."
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "%s 已成功刪除."
 
@@ -6926,7 +6868,6 @@ msgid "Set this if you want to allow Trusted Domains."
 msgstr ""
 
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "伺服器數量"
 
@@ -9313,7 +9254,6 @@ msgid "IPv6 network range for jails and plugins"
 msgstr ""
 
 #: jails/nav.py:70
-#, fuzzy
 msgid "Add Jails"
 msgstr "新增 %s"
 
@@ -9457,7 +9397,6 @@ msgid "Certificate"
 msgstr ""
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "新密碼"
 
@@ -11122,7 +11061,6 @@ msgstr "封鎖使用者"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "儲存碟"
 
@@ -11147,7 +11085,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "查看所有用戶"
 
@@ -11700,7 +11637,6 @@ msgid ""
 msgstr ""
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "E-mail"
 
@@ -11798,7 +11734,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "%s 已成功刪除."
 
@@ -11874,7 +11809,6 @@ msgid "Every {0} days"
 msgstr "每天"
 
 #: storage/models.py:1026
-#, fuzzy
 msgid "Exclude System Dataset"
 msgstr "系統時間"
 
@@ -12482,33 +12416,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "IPv4 地址"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "遠端監視器"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "帳戶名稱"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "改變密碼"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "操作系統版本"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Global Configuration"
 
@@ -13105,4 +13033,495 @@ msgstr "關機模式"
 msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
+msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:655
+#, fuzzy
+msgid "Volume is not encrypted."
+msgstr "ZFS Volume"
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "帳戶名稱"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "群組名稱"
+
+#: directoryservice/models.py:928
+msgid "DN of the group container in AD."
+msgstr ""
+
+#: jails/forms.py:259
+msgid "You can either enter dhcp or static ip but not both"
+msgstr ""
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "群組的 gid 已經存在！"
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "只能使用英文字母、數字和  ./-/_ 符號。"
+
+#: services/forms.py:1505
+#, fuzzy
+msgid "Zvol \"%s\" does not exist"
+msgstr "群組的 gid 已經存在！"
+
+#: services/models.py:148
+#: services/models.py:304
+msgid ""
+"Use this option to override the username ('nobody' by default) which will be "
+"used for access to services which are specified as guest. Whatever "
+"privileges this user has will be available to any client connecting to the "
+"guest service. This user must exist in the password file, but does not "
+"require a valid login. The user root cannot be used as guest account."
+msgstr ""
+
+#: services/models.py:177
+msgid "These parameters are added to the [global] section of smb.conf"
+msgstr ""
+
+#: services/models.py:220
+msgid ""
+"Specifies whether Samba should use (expensive) hostname lookups or use IP "
+"addresses instead. An example place where hostname lookups are currently "
+"used is when checking the hosts deny and hosts allow."
+msgstr ""
+
+#: services/models.py:244
+msgid ""
+"This boolean parameter controls the behaviour of smbd(8) when receiving a "
+"protocol request of \"open for execution\" from a Windows client. With Samba "
+"3.6 and older, the execution right in the ACL was not checked, so a client "
+"could execute a file even if it did not have execute rights on the file. In "
+"Samba 4.0, this has been fixed, so that by default, i.e. when this parameter "
+"is set to \"False\", \"open for execution\" is now denied when execution "
+"permissions are not present. If this parameter is set to \"True\", Samba "
+"does not check execute permissions on \"open for execution\", thus re-"
+"establishing the behavior of Samba 3.6 "
+msgstr ""
+
+#: services/models.py:265
+msgid ""
+"IP addresses to bind to. If none specified, all available interfaces that "
+"are up will be listened on."
+msgstr ""
+
+#: services/models.py:296
+msgid "Allows guest access to all Apple shares on this box."
+msgstr ""
+
+#: services/models.py:315
+msgid ""
+"IP addresses to advertise and listens to. If none specified, advertise the "
+"first IP address of the system, but to listen for any incoming request."
+msgstr ""
+
+#: services/models.py:333
+msgid "Enable/disable home directories for AFP user."
+msgstr ""
+
+#: services/models.py:343
+msgid "When set, overrides the default Home Share Name."
+msgstr ""
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:357
+msgid "These parameters are added to the [Global] section of afp.conf"
+msgstr ""
+
+#: services/models.py:362
+msgid ""
+"How to map the effective permissions of authenticated users: Rights ("
+"default, Unix-style permissions), Mode (ACLs), or None"
+msgstr ""
+
+#: services/models.py:383
+msgid ""
+"Specifies how many servers to create. There should be enough to handle the "
+"maximum level of concurrency from clients, typically four to six."
+msgstr ""
+
+#: services/models.py:421
+msgid ""
+"Select the IP addresses to listen to for NFS requests. If left unchecked, "
+"NFS will listen on all available addresses."
+msgstr ""
+
+#: services/models.py:442
+msgid ""
+"Forces the rpc.statd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:451
+msgid ""
+"Force the rpc.lockd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:458
+msgid ""
+"Ignore the group membership sent on the wire by the NFS client and look up "
+"the group membership on the server.  Note that this option is mutually "
+"incompatible with the NFSv3 ownership model for NFSv4."
+msgstr ""
+
+#: services/models.py:467
+msgid "Enable/disable mountd logging into syslog."
+msgstr ""
+
+#: services/models.py:473
+msgid "Enable/disable statd and lockd logging into syslog."
+msgstr ""
+
+#: services/models.py:565
+msgid ""
+"Size of extent: 0 means auto, a raw number is bytes, or suffix with KB, MB, "
+"or TB for convenience."
+msgstr ""
+
+#: services/models.py:573
+msgid ""
+"Logical block length (512 by default). The recommended length for "
+"compatibility is 512."
+msgstr ""
+
+#: services/models.py:581
+msgid ""
+"By default, the physical blocksize is reported as the ZFS block size, which "
+"can be up to 128K. Some initiators do not work with values above 4K. "
+"Checking this disables reporting the physical blocksize."
+msgstr ""
+
+#: services/models.py:597
+#: services/models.py:700
+msgid "A description can be entered here for your reference."
+msgstr ""
+
+#: services/models.py:626
+msgid ""
+"RPM reported to initiators for this extent/LUN. The default is SSD because "
+"Windows will attempt to defrag non SSD devices.  This is a pathological "
+"worst-case situation for ZFS.  VMWare gives the option to use SSD LUNs as "
+"swap devices. There is some value to picking a non-SSD RPM if your extent is "
+"indeed not SSDs and the initiator will be VMWare."
+msgstr ""
+
+#: services/models.py:1441
+msgid "Override the file creation mask (077 by default)."
+msgstr ""
+
+#: services/models.py:1449
+msgid "Override the directory creation mask (077 by default)."
+msgstr ""
+
+#: services/models.py:1479
+msgid ""
+"Cause the server to display the network information for the specified "
+"address to the client, on the assumption that IP address or DNS host is "
+"acting as a NAT gateway or port forwarder for the server."
+msgstr ""
+
+#: services/models.py:1935
+msgid "Control the access a remote host has to this module"
+msgstr ""
+
+#: services/models.py:1941
+#, fuzzy
+msgid "Maximum number of simultaneous connections. Default is 0 (unlimited)."
+msgstr "每個IP地址的最大連線數 (0 = 無限)."
+
+#: services/models.py:1948
+msgid ""
+"Specify the user name for file transfers to and from that module. In "
+"combination with the 'Group' option, this determines which file permissions "
+"are available. Leave this field empty to use default settings."
+msgstr ""
+
+#: services/models.py:1958
+msgid ""
+"Specify the group name for file transfers to and from that module. Leave "
+"this field empty to use default settings."
+msgstr ""
+
+#: services/models.py:1964
+msgid ""
+"This option is a comma, space, or tab delimited set of hosts which are "
+"permitted to access this module. You can specify the hosts by name or IP "
+"number. Leave this field empty to use default settings."
+msgstr ""
+
+#: services/models.py:1972
+msgid ""
+"A comma, space, or tab-delimited set of hosts which are NOT permitted to "
+"access this module. Where the lists conflict, the allow list takes "
+"precedence. In the event that it is necessary to deny all by default, use "
+"the keyword ALL (or the netmask 0.0.0.0/0) and then explicitly specify in "
+"the hosts allow parameter those hosts that should be permitted access. Leave "
+"this field empty to use default settings."
+msgstr ""
+
+#: services/models.py:1984
+msgid ""
+"These parameters will be added to the module configuration in rsyncd.conf."
+msgstr ""
+
+#: services/models.py:2006
+msgid ""
+"Set the interval between disk checks to N minutes. The default is 30 minutes."
+msgstr ""
+
+#: services/models.py:2018
+msgid ""
+"Report if the temperature has changed by at least N degrees Celsius since "
+"the last report. 0 to disable."
+msgstr ""
+
+#: services/models.py:2024
+msgid ""
+"Report as informational in the system log if the temperature is greater or "
+"equal than N degrees Celsius. 0 to disable."
+msgstr ""
+
+#: services/models.py:2031
+msgid ""
+"Report as critical in the system log and send an email if the temperature is "
+"greater or equal than N degrees Celsius. 0 to disable."
+msgstr ""
+
+#: services/models.py:2039
+#, fuzzy
+msgid "Destination email address. Separate email addresses with commas."
+msgstr "目的電郵地址。使用分號\";\"分開不同電郵地址"
+
+#: services/models.py:2184
+msgid ""
+"The port on which WebDAV will run.<br>Do not use a port that is already in "
+"use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2193
+msgid ""
+"The port on which Secure WebDAV will run.<br>Do not use a port that is "
+"already in use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2210
+msgid ""
+"Type of HTTP Authentication for WebDAV<br>Basic Auth: Password is sent over "
+"the network as plaintext (Avoid if HTTPS is disabled) <br>Digest Auth: The "
+"hash of the password is sent over the network (more secure)."
+msgstr ""
+
+#: sharing/admin.py:80
+msgid ""
+"full_audit VFS object is known to have file transfer issues with Windows 10. "
+"Do you wish to continue?"
+msgstr ""
+
+#: sharing/forms.py:464
+msgid "This option can only be used for datasets."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: storage/admin.py:144
+#: storage/forms.py:1196
+#: storage/forms.py:1429
+#: storage/forms.py:1513
+#, fuzzy
+msgid "Comments"
+msgstr "客戶"
+
+#: storage/forms.py:2011
+#, fuzzy
+msgid "Setup mode"
+msgstr "關機模式"
+
+#: storage/forms.py:2013
+#, fuzzy
+msgid "Manual"
+msgstr "更新"
+
+#: storage/forms.py:2014
+#, fuzzy
+msgid "Semi-automatic"
+msgstr "自動"
+
+#: storage/forms.py:2025
+#, fuzzy
+msgid "Remote HTTP/HTTPS Port"
+msgstr "遠端監視器"
+
+#: storage/forms.py:2030
+#, fuzzy
+msgid "Remote HTTPS"
+msgstr "遠端監視器"
+
+#: storage/forms.py:2035
+#, fuzzy
+msgid "Remote Auth Token"
+msgstr "遠端監視器"
+
+#: storage/forms.py:2222
+msgid "I'm aware this will destroy snapshots of this zvol"
+msgstr ""
+
+#: storage/forms.py:2187
+#, fuzzy
+msgid "Token is invalid."
+msgstr "用戶 %s 無效"
+
+#: storage/forms.py:2191
+#, fuzzy
+msgid "Failed to connect to remote: %s"
+msgstr "無法讀取 %(url)s： %(error)s"
+
+#: storage/forms.py:2417
+msgid "CIFS"
+msgstr ""
+
+#: system/forms.py:1003
+#, fuzzy
+msgid "Invalid syslog server format"
+msgstr "使用 Service Pack"
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+msgid "Access Key"
+msgstr ""
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "保密"
+
+#: system/models.py:348
+msgid "Use FQDN for logging"
+msgstr ""
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "管理員名稱"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "使用 Service Pack"
+
+#: tasks/forms.py:83
+msgid "Invalid credential."
+msgstr ""
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "必填項目"
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/forms.py:96
+#, fuzzy
+msgid "Folder \"%s\" does not exist."
+msgstr "群組的 gid 已經存在！"
+
+#: tasks/models.py:52
+msgid "Push - From local to remote. Pull - From remote to local."
+msgstr ""
+
+#: tasks/views.py:53
+msgid "The cloud sync process has started"
+msgstr ""
+
+#: templates/services/core.html:113
+#, fuzzy
+msgid "CIFS Settings"
+msgstr "S.M.A.R.T.設置 (Self-Monitoring, Analysis and Reporting Technology)"
+
+#: templates/storage/replication_datagrid.html:17
+#: templates/storage/replication_datagrid.html:19
+msgid "Temporary Auth Token"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+msgid "Would you like to run this cloud sync now?"
 msgstr ""

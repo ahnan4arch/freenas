@@ -63,7 +63,6 @@ msgid "Wipe"
 msgstr ""
 
 #: freeadmin/static/lib/js/freeadmin.js:551
-#, fuzzy
 msgid "Wipe Disk"
 msgstr "Stilla disk"
 
@@ -628,4 +627,24 @@ msgstr ""
 
 #: freeadmin/static/lib/js/freeadmin.js:359
 msgid "Ok"
+msgstr ""
+
+#: freeadmin/static/lib/js/alert.js:69
+msgid "Warning"
+msgstr ""
+
+#: freeadmin/static/lib/js/alert.js:73
+msgid "Critical"
+msgstr ""
+
+#: freeadmin/static/lib/js/freeadmin.js:1425
+msgid "The action will result in migration of dataset."
+msgstr ""
+
+#: freeadmin/static/lib/js/freeadmin.js:1425
+msgid "Some services will be restarted."
+msgstr ""
+
+#: freeadmin/static/lib/js/freeadmin.js:1438
+msgid "Continue"
 msgstr ""

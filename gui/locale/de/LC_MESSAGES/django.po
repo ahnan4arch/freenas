@@ -7314,7 +7314,6 @@ msgid "Read-Only"
 msgstr "Schreibgeschützt"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Dateisystemtyp"
 
@@ -7343,7 +7342,6 @@ msgid "Jail successfully started."
 msgstr "Jail erfolgreich importiert."
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "Dataset erfolgreich editiert."
 
@@ -7613,7 +7611,6 @@ msgstr ""
 
 # Gibt es eine sinnvolle Übersetzung für "Keytab" bei Kerberos?
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "Kerberos Keytab Datei"
 
@@ -8428,7 +8425,6 @@ msgstr "Jail IP-Adresse"
 # Gibt es eine sinnvolle Übersetzung für "Keytab" bei Kerberos?
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "Kerberos Keytab Datei"
 
@@ -9321,7 +9317,6 @@ msgid "IPv6 network range for jails and plugins"
 msgstr "IPv6 Netzwerk Startadresse für Jails und PlugIns"
 
 #: jails/nav.py:70
-#, fuzzy
 msgid "Add Jails"
 msgstr "Jail-Vorlagen hinzufügen"
 
@@ -9860,7 +9855,6 @@ msgid "Enable debug kernel"
 msgstr "Dienst aktivieren"
 
 #: system/models.py:382
-#, fuzzy
 msgid "Private key passphrase"
 msgstr "Verschlüsselt, ohne Kennwort                "
 
@@ -10130,7 +10124,6 @@ msgid "Certificate"
 msgstr "SSL-Zertifikat"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Root Bind Passwort"
 
@@ -10172,7 +10165,6 @@ msgstr "Name des Domänencontrollers"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "SSL-Zertifikat"
 
@@ -10557,7 +10549,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Initiator"
 
@@ -11869,7 +11860,6 @@ msgstr "Logische Blockgröße"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Plugins"
 
@@ -11896,7 +11886,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Snapshot"
 
@@ -11982,7 +11971,6 @@ msgid "Verifying"
 msgstr "Überprüfen"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "Der Status von Volume %(volume)s ist %(status)s: %(message)s"
 
@@ -12478,7 +12466,6 @@ msgstr ""
 "\"iqn.\" beginnt."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Ändern"
 
@@ -12580,7 +12567,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "Ihre Änderungen wurden erfolgreich übernommen!"
 
@@ -13300,33 +13286,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "IP-Adresse des Controllers"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Remote Port"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Benutzername"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Passwort ändern"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "Version"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Allgemeine Konfiguration"
 
@@ -13952,3 +13932,575 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+# Volume = Datenträger? Laufwerk? || Volume ist ein "Bereich" uns sollte nicht übersetzt werden, uns fehlt das genaue deutsche Wort
+#: api/resources.py:655
+#, fuzzy
+msgid "Volume is not encrypted."
+msgstr "Zu erweiterndes Volume"
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Benutzername"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Gruppenname"
+
+# Übersetzung laut Wikipedia Artikel
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Name des Domänencontrollers"
+
+#: jails/forms.py:259
+msgid "You can either enter dhcp or static ip but not both"
+msgstr ""
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Diese IP-Adresse existiert bereits."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "Die Community darf nur aus alphanumerischen Zeichen, _ oder - bestehen"
+
+#: services/forms.py:1505
+#, fuzzy
+msgid "Zvol \"%s\" does not exist"
+msgstr "der Pfad existiert nicht"
+
+#: services/models.py:148
+#: services/models.py:304
+#, fuzzy
+msgid ""
+"Use this option to override the username ('nobody' by default) which will be "
+"used for access to services which are specified as guest. Whatever "
+"privileges this user has will be available to any client connecting to the "
+"guest service. This user must exist in the password file, but does not "
+"require a valid login. The user root cannot be used as guest account."
+msgstr ""
+"Benutzen Sie diese Option, um den Benutzernamen zu überschreiben, welcher "
+"für den Zugriff auf den Dienst benutzt wird, der als Gast bezeichnet wird ("
+"Standard \"nobody\"). Sämtliche Berechtigungen dieses Benutzers werden allen "
+"Clients zur Verfügung stehen, die sich mit dem Gast-Dienst anmelden. Dieser "
+"Benutzer muss zwar in der Passwortdatei existieren, benötigt aber kein "
+"Passwort."
+
+#: services/models.py:177
+#, fuzzy
+msgid "These parameters are added to the [global] section of smb.conf"
+msgstr "Diese Parameter im Bereich [Global] der smb.conf hinzufügen"
+
+#: services/models.py:220
+msgid ""
+"Specifies whether Samba should use (expensive) hostname lookups or use IP "
+"addresses instead. An example place where hostname lookups are currently "
+"used is when checking the hosts deny and hosts allow."
+msgstr ""
+
+#: services/models.py:244
+msgid ""
+"This boolean parameter controls the behaviour of smbd(8) when receiving a "
+"protocol request of \"open for execution\" from a Windows client. With Samba "
+"3.6 and older, the execution right in the ACL was not checked, so a client "
+"could execute a file even if it did not have execute rights on the file. In "
+"Samba 4.0, this has been fixed, so that by default, i.e. when this parameter "
+"is set to \"False\", \"open for execution\" is now denied when execution "
+"permissions are not present. If this parameter is set to \"True\", Samba "
+"does not check execute permissions on \"open for execution\", thus re-"
+"establishing the behavior of Samba 3.6 "
+msgstr ""
+
+#: services/models.py:265
+msgid ""
+"IP addresses to bind to. If none specified, all available interfaces that "
+"are up will be listened on."
+msgstr ""
+
+#: services/models.py:296
+#, fuzzy
+msgid "Allows guest access to all Apple shares on this box."
+msgstr "Gastzugriffe auf alle Apple Freigaben dieses Servers erlauben."
+
+#: services/models.py:315
+msgid ""
+"IP addresses to advertise and listens to. If none specified, advertise the "
+"first IP address of the system, but to listen for any incoming request."
+msgstr ""
+
+#: services/models.py:333
+#, fuzzy
+msgid "Enable/disable home directories for AFP user."
+msgstr "Die Verwendung von Heimatverzeichnissen für Samba Benutzer erlauben."
+
+#: services/models.py:343
+msgid "When set, overrides the default Home Share Name."
+msgstr ""
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:357
+#, fuzzy
+msgid "These parameters are added to the [Global] section of afp.conf"
+msgstr "Diese Parameter im Bereich [Global] der smb.conf hinzufügen"
+
+#: services/models.py:362
+msgid ""
+"How to map the effective permissions of authenticated users: Rights ("
+"default, Unix-style permissions), Mode (ACLs), or None"
+msgstr ""
+
+#: services/models.py:383
+#, fuzzy
+msgid ""
+"Specifies how many servers to create. There should be enough to handle the "
+"maximum level of concurrency from clients, typically four to six."
+msgstr ""
+"Legt die zu kreierenden Server fest. Bitte genügend wählen um die maximale "
+"Anzahl gleichzeitiger Client-Zugriffe handhaben zu können (üblicherweise "
+"zwischen vier und sechs). "
+
+#: services/models.py:421
+msgid ""
+"Select the IP addresses to listen to for NFS requests. If left unchecked, "
+"NFS will listen on all available addresses."
+msgstr ""
+
+#: services/models.py:442
+msgid ""
+"Forces the rpc.statd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:451
+msgid ""
+"Force the rpc.lockd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:458
+msgid ""
+"Ignore the group membership sent on the wire by the NFS client and look up "
+"the group membership on the server.  Note that this option is mutually "
+"incompatible with the NFSv3 ownership model for NFSv4."
+msgstr ""
+
+#: services/models.py:467
+msgid "Enable/disable mountd logging into syslog."
+msgstr ""
+
+#: services/models.py:473
+msgid "Enable/disable statd and lockd logging into syslog."
+msgstr ""
+
+#: services/models.py:565
+#, fuzzy
+msgid ""
+"Size of extent: 0 means auto, a raw number is bytes, or suffix with KB, MB, "
+"or TB for convenience."
+msgstr ""
+"Die Größe des Extents: Verwenden Sie \"0\" für automatische Größe oder eine "
+"Zahl, um die Größe in Byte anzugeben. Alternativ ist eine andere Einheit als "
+"Byte möglich bei Verwendung der entsprechenden Abkürzung, z.B. KB, MB, GB, "
+"TB."
+
+#: services/models.py:573
+#, fuzzy
+msgid ""
+"Logical block length (512 by default). The recommended length for "
+"compatibility is 512."
+msgstr ""
+"Sie können die logische Blockgröße ändern (512 sind voreingestellt). Der aus "
+"Kompatibilitätsgründen empfohlene Wert ist 512."
+
+#: services/models.py:581
+msgid ""
+"By default, the physical blocksize is reported as the ZFS block size, which "
+"can be up to 128K. Some initiators do not work with values above 4K. "
+"Checking this disables reporting the physical blocksize."
+msgstr ""
+
+#: services/models.py:597
+#: services/models.py:700
+#, fuzzy
+msgid "A description can be entered here for your reference."
+msgstr "Sie können hier eine Beschreibung eingeben."
+
+#: services/models.py:626
+msgid ""
+"RPM reported to initiators for this extent/LUN. The default is SSD because "
+"Windows will attempt to defrag non SSD devices.  This is a pathological "
+"worst-case situation for ZFS.  VMWare gives the option to use SSD LUNs as "
+"swap devices. There is some value to picking a non-SSD RPM if your extent is "
+"indeed not SSDs and the initiator will be VMWare."
+msgstr ""
+
+# laut GNU Manpage zu "chmod" ist "Dateizugriffsrechte" die deutsche Wiedergabe von "file mode bits". Etwas angepasst, ergibt das die o.g. Formulierung.
+#: services/models.py:1441
+#, fuzzy
+msgid "Override the file creation mask (077 by default)."
+msgstr ""
+"Verwenden Sie diese Option, um die Dateizugriffsrechte für neue Dateien zu "
+"ändern (077 ist voreingestellt)."
+
+#: services/models.py:1449
+#, fuzzy
+msgid "Override the directory creation mask (077 by default)."
+msgstr ""
+"Benutzen Sie diese Option, um die Verzeichniserzeugungsmaske zu übersteuern ("
+"0777 ist Standard)."
+
+#: services/models.py:1479
+#, fuzzy
+msgid ""
+"Cause the server to display the network information for the specified "
+"address to the client, on the assumption that IP address or DNS host is "
+"acting as a NAT gateway or port forwarder for the server."
+msgstr ""
+"Der Server wird die Netzwerkinformationen dieser Adresse an Clients "
+"übermitteln, in der Annahme, dass diese IP-Adresse oder der Hostname als NAT-"
+"Gateway oder Portweiterleitung für den Server konfiguriert ist."
+
+#: services/models.py:1935
+#, fuzzy
+msgid "Control the access a remote host has to this module"
+msgstr "Dieses kontrolliert den Zugriff eines entfernten Hosts auf dieses Modul"
+
+#: services/models.py:1941
+#, fuzzy
+msgid "Maximum number of simultaneous connections. Default is 0 (unlimited)."
+msgstr "Maximale Anzahl von Verbindungen pro IP Adresse (0 = unbegrenzt)."
+
+#: services/models.py:1948
+#, fuzzy
+msgid ""
+"Specify the user name for file transfers to and from that module. In "
+"combination with the 'Group' option, this determines which file permissions "
+"are available. Leave this field empty to use default settings."
+msgstr ""
+"Diese Option legt den Benutzernamen für den Dateitransfer zu und von dem "
+"Modul fest. In Kombination mit der 'Gruppen' Option wird bestimmt, welche "
+"Rechte möglich sind. Lassen Sie das Feld leer, um die Standardeinstellungen "
+"zu verwenden"
+
+#: services/models.py:1958
+#, fuzzy
+msgid ""
+"Specify the group name for file transfers to and from that module. Leave "
+"this field empty to use default settings."
+msgstr ""
+"Diese Option legt den Gruppennamen für den Dateitransfer zu und von dem "
+"Modul fest. Lassen Sie das Feld leer, um die Standardeinstellungen zu "
+"verwenden"
+
+#: services/models.py:1964
+#, fuzzy
+msgid ""
+"This option is a comma, space, or tab delimited set of hosts which are "
+"permitted to access this module. You can specify the hosts by name or IP "
+"number. Leave this field empty to use default settings."
+msgstr ""
+"Dies ist eine Liste von Rechnern, denen der Zugriff auf die Freigaben "
+"erlaubt ist. Sie können sowohl Namen als auch IP-Adressen verwenden. Mehrere "
+"Einträge müssen mit Komma, Leerzeichen oder Tab voneinander getrennt werden. "
+"Lassen Sie das Feld leer, um die Standardeinstellungen zu verwenden"
+
+#: services/models.py:1972
+#, fuzzy
+msgid ""
+"A comma, space, or tab-delimited set of hosts which are NOT permitted to "
+"access this module. Where the lists conflict, the allow list takes "
+"precedence. In the event that it is necessary to deny all by default, use "
+"the keyword ALL (or the netmask 0.0.0.0/0) and then explicitly specify in "
+"the hosts allow parameter those hosts that should be permitted access. Leave "
+"this field empty to use default settings."
+msgstr ""
+"Dies ist eine Liste von Rechnern, denen der Zugriff auf die Freigaben NICHT "
+"erlaubt ist. Mehrere Einträge müssen mit Komma, Leerzeichen oder Tab "
+"voneinander getrennt werden.Wenn es einen Konflikt in den Zugriffsrechten "
+"gibt, dann erhält die Zugriffserlaubnis den Vorrang vor der "
+"Zugriffsverweigerung. Sollte es notwendig sein, standardmäßig alle Zugriffe "
+"zu verbieten, dann verwenden Sie das Wort ALL (oder die Netzbezeichnung "
+"0.0.0.0/0). Anschließend fügen Sie die zu erlaubenden Rechner explizit zur "
+"anderen Liste hinzu. Lassen Sie das Feld leer, um die Standardeinstellungen "
+"zu verwenden."
+
+#: services/models.py:1984
+#, fuzzy
+msgid ""
+"These parameters will be added to the module configuration in rsyncd.conf."
+msgstr ""
+"Diese Parameter werden der Modul-Konfiguration der Datei rsyncd.conf "
+"hinzugefügt."
+
+#: services/models.py:2006
+#, fuzzy
+msgid ""
+"Set the interval between disk checks to N minutes. The default is 30 minutes."
+msgstr ""
+"Legt den Intervall zwischen den Festplattenprüfungen in N Minuten fest. "
+"Standard ist 30 Minuten."
+
+#: services/models.py:2018
+#, fuzzy
+msgid ""
+"Report if the temperature has changed by at least N degrees Celsius since "
+"the last report. 0 to disable."
+msgstr ""
+"Bericht, ob sich die Temperatur seit dem vorherigen Bericht um mindestens N "
+"Grad Celsius verändert hat. 0 zum Deaktivieren"
+
+#: services/models.py:2024
+#, fuzzy
+msgid ""
+"Report as informational in the system log if the temperature is greater or "
+"equal than N degrees Celsius. 0 to disable."
+msgstr ""
+"Berichte, falls die Temperatur höher oder genau N Grad Celsius entspricht. 0 "
+"um dies zu deaktivieren"
+
+#: services/models.py:2031
+#, fuzzy
+msgid ""
+"Report as critical in the system log and send an email if the temperature is "
+"greater or equal than N degrees Celsius. 0 to disable."
+msgstr ""
+"Berichte, falls die Temperatur höher oder genau N Grad Celsius entspricht. 0 "
+"um dies zu deaktivieren"
+
+#: services/models.py:2039
+#, fuzzy
+msgid "Destination email address. Separate email addresses with commas."
+msgstr ""
+"E-Mail Empfänger. Mehrere E-Mail Adressen werden mit einem Semikolon "
+"getrennt."
+
+#: services/models.py:2184
+msgid ""
+"The port on which WebDAV will run.<br>Do not use a port that is already in "
+"use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2193
+msgid ""
+"The port on which Secure WebDAV will run.<br>Do not use a port that is "
+"already in use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2210
+msgid ""
+"Type of HTTP Authentication for WebDAV<br>Basic Auth: Password is sent over "
+"the network as plaintext (Avoid if HTTPS is disabled) <br>Digest Auth: The "
+"hash of the password is sent over the network (more secure)."
+msgstr ""
+
+#: sharing/admin.py:80
+msgid ""
+"full_audit VFS object is known to have file transfer issues with Windows 10. "
+"Do you wish to continue?"
+msgstr ""
+
+#: sharing/forms.py:464
+msgid "This option can only be used for datasets."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: storage/admin.py:144
+#: storage/forms.py:1196
+#: storage/forms.py:1429
+#: storage/forms.py:1513
+#, fuzzy
+msgid "Comments"
+msgstr "Kommentar"
+
+#: storage/forms.py:2011
+#, fuzzy
+msgid "Setup mode"
+msgstr "Abschaltmodus"
+
+#: storage/forms.py:2013
+#, fuzzy
+msgid "Manual"
+msgstr "Update anwerunden"
+
+#: storage/forms.py:2014
+#, fuzzy
+msgid "Semi-automatic"
+msgstr "Automatisch starten"
+
+#: storage/forms.py:2025
+#, fuzzy
+msgid "Remote HTTP/HTTPS Port"
+msgstr "Remote Port"
+
+#: storage/forms.py:2030
+#, fuzzy
+msgid "Remote HTTPS"
+msgstr "Remote Rechner"
+
+#: storage/forms.py:2035
+#, fuzzy
+msgid "Remote Auth Token"
+msgstr "Entfernter Hostkey"
+
+#: storage/forms.py:2222
+#, fuzzy
+msgid "I'm aware this will destroy snapshots of this zvol"
+msgstr ""
+"Ich bin mir darüber im klaren, daß dieses alle Snapshots im Datensatz "
+"zerstören wird."
+
+#: storage/forms.py:2187
+#, fuzzy
+msgid "Token is invalid."
+msgstr "Der Benutzer %s ist ungültig."
+
+#: storage/forms.py:2191
+#, fuzzy
+msgid "Failed to connect to remote: %s"
+msgstr "Konnte %(url)s nicht empfangen: %(error)s"
+
+#: system/forms.py:1003
+#, fuzzy
+msgid "Invalid syslog server format"
+msgstr "Service Pack ungültig"
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Zugriffsmodus"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Geheimnis"
+
+#: system/models.py:348
+msgid "Use FQDN for logging"
+msgstr ""
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Domainname"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Service Pack ungültig"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Ungültiger Präfix"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Dieses Feld wird benötigt."
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/forms.py:96
+#, fuzzy
+msgid "Folder \"%s\" does not exist."
+msgstr "der Pfad existiert nicht"
+
+#: tasks/models.py:52
+#, fuzzy
+msgid "Push - From local to remote. Pull - From remote to local."
+msgstr ""
+"Push: Vom lokalen zum entfernten Rechner. Pull: Vom entfernten auf den "
+"lokalen Rechner."
+
+#: tasks/views.py:53
+#, fuzzy
+msgid "The cloud sync process has started"
+msgstr "Der Reinigungsvorgang hat angefangen"
+
+#: templates/storage/replication_datagrid.html:17
+#: templates/storage/replication_datagrid.html:19
+msgid "Temporary Auth Token"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "Möchten Sie diesen Dienst aktivieren?"

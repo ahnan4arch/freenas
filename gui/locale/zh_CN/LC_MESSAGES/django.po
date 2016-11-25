@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-04 02:07-0700\n"
-"PO-Revision-Date: 2016-05-15 07:07+0000\n"
-"Last-Translator: jimhu <jimhuyiwei@me.com>\n"
+"PO-Revision-Date: 2016-11-21 13:36+0000\n"
+"Last-Translator: a62229776 <a62229776@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1463296042.0\n"
+"X-POOTLE-MTIME: 1479735389.0\n"
 
 #: choices.py:40
 msgid "Plain"
@@ -2486,7 +2486,6 @@ msgid "Require IDENT Authentication"
 msgstr "要求 IDENT 认证"
 
 #: services/models.py:1031
-#, fuzzy
 msgid "Require Reverse DNS for IP"
 msgstr "IP 需要反向解析 DNS"
 
@@ -6558,7 +6557,6 @@ msgid "Read-Only"
 msgstr "只读"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "文件系统类型"
 
@@ -6583,7 +6581,6 @@ msgid "Jail successfully started."
 msgstr "Jail 已启动。"
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "成功删除数据集。"
 
@@ -6819,7 +6816,6 @@ msgid "Set this if you want to allow Trusted Domains."
 msgstr "若允许信任域，则设置此项。"
 
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "服务器数量"
 
@@ -9147,7 +9143,6 @@ msgid "Certificate"
 msgstr "证书"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Root 绑定密码"
 
@@ -9183,7 +9178,6 @@ msgstr "域控制器设置"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "SSL 凭证"
 
@@ -9570,7 +9564,6 @@ msgid "Idmap backend for winbind."
 msgstr "用作 winbind 的 Idmap backend。"
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "发起端"
 
@@ -10827,7 +10820,6 @@ msgid "Verifying"
 msgstr "验证中"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "卷%(valume)s状态为%(status)s:%(message)s"
 
@@ -11273,7 +11265,6 @@ msgid ""
 msgstr "如果 Base Name 不带 \"iqn.\"，将自动在 Base Name 前面添加。"
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "频道"
 
@@ -11711,7 +11702,7 @@ msgstr "光纤通道端口"
 
 #: templates/sharing/index.html:27
 msgid "Block"
-msgstr "阻止"
+msgstr "块"
 
 #: templates/sharing/index.html:27
 msgid "FC"
@@ -11974,7 +11965,6 @@ msgid "IPMI (Node A)"
 msgstr "IPMI (节点 A)"
 
 #: system/alertmods/mpr_firmware.py:34
-#, fuzzy
 msgid ""
 "Firmware version %(fwversion)s does not match driver version %(drversion)s "
 "for /dev/mpr%(mpr)s"
@@ -12037,33 +12027,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "主机名或 IP 地址"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "远程端口"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "用户名"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "更改密码"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "版本"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "配置"
 
@@ -12694,3 +12678,539 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr "权限"
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr "亚马逊 S3"
+
+#: api/resources.py:655
+#, fuzzy
+msgid "Volume is not encrypted."
+msgstr "已导入卷"
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr "自上次启动后不再运行"
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "用户名"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr "域中用户容器的DN"
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "组名称"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "域控制器所使用的 FQDN。"
+
+#: jails/forms.py:259
+msgid "You can either enter dhcp or static ip but not both"
+msgstr ""
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "该 IP 已被使用。"
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "评论只能包含字母、数字、下划线或者横线"
+
+#: services/forms.py:1505
+#, fuzzy
+msgid "Zvol \"%s\" does not exist"
+msgstr "Jail 不存在"
+
+#: services/models.py:148
+#: services/models.py:304
+#, fuzzy
+msgid ""
+"Use this option to override the username ('nobody' by default) which will be "
+"used for access to services which are specified as guest. Whatever "
+"privileges this user has will be available to any client connecting to the "
+"guest service. This user must exist in the password file, but does not "
+"require a valid login. The user root cannot be used as guest account."
+msgstr ""
+"请使用此选项重新定义存取访客服务的帐号（缺省为'nobody'）。些帐号的所有权限都将应用至每个连接到访客服务的用户端。些帐号必须存在于 "
+"password 文件中，但不必是个有效的登录帐号。root帐号不能作为访客帐号。"
+
+#: services/models.py:177
+#, fuzzy
+msgid "These parameters are added to the [global] section of smb.conf"
+msgstr "参数将追加到 smb.conf 配置文件的 [Global] 小节"
+
+#: services/models.py:220
+#, fuzzy
+msgid ""
+"Specifies whether Samba should use (expensive) hostname lookups or use IP "
+"addresses instead. An example place where hostname lookups are currently "
+"used is when checking the hosts deny and hosts allow."
+msgstr ""
+"指定 Samba 是否使用(高开销)的主机名查找(hostname lookups)功能，或是直接用 IP "
+"地址作为替代。主机名查找功能主要用于实现阻止和允许客户机访问功能。"
+
+#: services/models.py:244
+#, fuzzy
+msgid ""
+"This boolean parameter controls the behaviour of smbd(8) when receiving a "
+"protocol request of \"open for execution\" from a Windows client. With Samba "
+"3.6 and older, the execution right in the ACL was not checked, so a client "
+"could execute a file even if it did not have execute rights on the file. In "
+"Samba 4.0, this has been fixed, so that by default, i.e. when this parameter "
+"is set to \"False\", \"open for execution\" is now denied when execution "
+"permissions are not present. If this parameter is set to \"True\", Samba "
+"does not check execute permissions on \"open for execution\", thus re-"
+"establishing the behavior of Samba 3.6 "
+msgstr ""
+"当接收到 Windows 客户端 \"打开并运行文件\" 的请求时，由此参数控制 smbd(8) 行为。Samba 3.6 "
+"和更低的版本，ACL并不检查文件的可执行权限，因此客户端可以随意运行文件，即使该文件本身并不拥有可执行权限。Samba 4.0 修复了此问题，默认情况下，"
+"如果设置此参数为 \"False\"，当运行不具有执行权限的文件时，\"打开并运行文件\" 将被阻止。如果将此参数设置为 \"True\"，Samba "
+"则不会检查\"打开执行\"权限，然而Samba 3.6恢复了此功能"
+
+#: services/models.py:265
+#, fuzzy
+msgid ""
+"IP addresses to bind to. If none specified, all available interfaces that "
+"are up will be listened on."
+msgstr "IP地址绑定位置。如果不指定，则所有可用网络接口启动后将自动被监听。"
+
+#: services/models.py:296
+#, fuzzy
+msgid "Allows guest access to all Apple shares on this box."
+msgstr "允许访客访问这台设备上的所有 Apple 共享。"
+
+#: services/models.py:315
+#, fuzzy
+msgid ""
+"IP addresses to advertise and listens to. If none specified, advertise the "
+"first IP address of the system, but to listen for any incoming request."
+msgstr "IP公告和监听。如果不指定，则公告系统的第一个IP地址，但监听所有入站请求。"
+
+#: services/models.py:333
+#, fuzzy
+msgid "Enable/disable home directories for AFP user."
+msgstr "为 AFP 用户启用或禁用主目录。"
+
+#: services/models.py:343
+msgid "When set, overrides the default Home Share Name."
+msgstr ""
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:357
+#, fuzzy
+msgid "These parameters are added to the [Global] section of afp.conf"
+msgstr "这些参数将追加到 smb.conf 配置文件的 [Global] 小节"
+
+#: services/models.py:362
+msgid ""
+"How to map the effective permissions of authenticated users: Rights ("
+"default, Unix-style permissions), Mode (ACLs), or None"
+msgstr ""
+
+#: services/models.py:383
+#, fuzzy
+msgid ""
+"Specifies how many servers to create. There should be enough to handle the "
+"maximum level of concurrency from clients, typically four to six."
+msgstr "指定运行的服务进程数量。这个数值需要满足客户端最高并发数，通常设为4至6之间。"
+
+#: services/models.py:421
+#, fuzzy
+msgid ""
+"Select the IP addresses to listen to for NFS requests. If left unchecked, "
+"NFS will listen on all available addresses."
+msgstr "IP公告和监听。如果不指定，则公告系统的第一个IP地址，但监听所有入站请求。"
+
+#: services/models.py:442
+#, fuzzy
+msgid ""
+"Forces the rpc.statd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr "此选项强制 rpc.statd 守护进程绑定到指定的端口，同时适用于 IPv4 和 IPv6。"
+
+#: services/models.py:451
+#, fuzzy
+msgid ""
+"Force the rpc.lockd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr "此项设置强制 rpc.lockd 守护进程绑定到指定的端口，同时适用于IPv4和IPv6。"
+
+#: services/models.py:458
+msgid ""
+"Ignore the group membership sent on the wire by the NFS client and look up "
+"the group membership on the server.  Note that this option is mutually "
+"incompatible with the NFSv3 ownership model for NFSv4."
+msgstr ""
+
+#: services/models.py:467
+msgid "Enable/disable mountd logging into syslog."
+msgstr ""
+
+#: services/models.py:473
+msgid "Enable/disable statd and lockd logging into syslog."
+msgstr ""
+
+#: services/models.py:565
+#, fuzzy
+msgid ""
+"Size of extent: 0 means auto, a raw number is bytes, or suffix with KB, MB, "
+"or TB for convenience."
+msgstr "Extent 的大小，0为自动，默认以 Bytes 为单位，可使用 KB,MB,TB 后缀。"
+
+#: services/models.py:573
+#, fuzzy
+msgid ""
+"Logical block length (512 by default). The recommended length for "
+"compatibility is 512."
+msgstr "指定逻辑块的长度（默认为512）。建议设置为 512 可获得良好的兼容性。"
+
+#: services/models.py:581
+#, fuzzy
+msgid ""
+"By default, the physical blocksize is reported as the ZFS block size, which "
+"can be up to 128K. Some initiators do not work with values above 4K. "
+"Checking this disables reporting the physical blocksize."
+msgstr ""
+"默认情况下，物理块尺寸会被当做ZFS块尺寸进行报告，其值可高达128K。一些发起端(initiators)无法使用高于4K的块，此时应该禁用物理块尺寸报告"
+"。"
+
+#: services/models.py:597
+#: services/models.py:700
+#, fuzzy
+msgid "A description can be entered here for your reference."
+msgstr "这里输入可供辨认的描述性文字。"
+
+#: services/models.py:626
+msgid ""
+"RPM reported to initiators for this extent/LUN. The default is SSD because "
+"Windows will attempt to defrag non SSD devices.  This is a pathological "
+"worst-case situation for ZFS.  VMWare gives the option to use SSD LUNs as "
+"swap devices. There is some value to picking a non-SSD RPM if your extent is "
+"indeed not SSDs and the initiator will be VMWare."
+msgstr ""
+
+#: services/models.py:1441
+#, fuzzy
+msgid "Override the file creation mask (077 by default)."
+msgstr "该选项用以指定新建文件的掩码 (默认077)。"
+
+#: services/models.py:1449
+#, fuzzy
+msgid "Override the directory creation mask (077 by default)."
+msgstr "使用这个选项来改变目录创建时默认的权限掩码 (默认值 077)。"
+
+#: services/models.py:1479
+#, fuzzy
+msgid ""
+"Cause the server to display the network information for the specified "
+"address to the client, on the assumption that IP address or DNS host is "
+"acting as a NAT gateway or port forwarder for the server."
+msgstr "服务器通过指定的地址向用户显示网络信息，将IP地址或DNS主机伪装成服务器的NAT网关或端口转发器。"
+
+#: services/models.py:1935
+#, fuzzy
+msgid "Control the access a remote host has to this module"
+msgstr "这个模块包括远程主机访问控制"
+
+#: services/models.py:1941
+#, fuzzy
+msgid "Maximum number of simultaneous connections. Default is 0 (unlimited)."
+msgstr "最大并发连接数。默认值是0 (无限制)"
+
+#: services/models.py:1948
+#, fuzzy
+msgid ""
+"Specify the user name for file transfers to and from that module. In "
+"combination with the 'Group' option, this determines which file permissions "
+"are available. Leave this field empty to use default settings."
+msgstr "指定使用文件传输模块的帐号。可结合'群组'的选项，会决定授予哪些文件权限。本项空白时，则使用缺省设值。"
+
+#: services/models.py:1958
+#, fuzzy
+msgid ""
+"Specify the group name for file transfers to and from that module. Leave "
+"this field empty to use default settings."
+msgstr "指定使用档案传输模块的群组。将此字段留空将使用默认设置"
+
+#: services/models.py:1964
+#, fuzzy
+msgid ""
+"This option is a comma, space, or tab delimited set of hosts which are "
+"permitted to access this module. You can specify the hosts by name or IP "
+"number. Leave this field empty to use default settings."
+msgstr "该选项为用逗号/空格/制表符分隔的 允许 访问该模块的主机列表。可使用主机名或 IP 地址。选项为空时使用默认设置。"
+
+#: services/models.py:1972
+#, fuzzy
+msgid ""
+"A comma, space, or tab-delimited set of hosts which are NOT permitted to "
+"access this module. Where the lists conflict, the allow list takes "
+"precedence. In the event that it is necessary to deny all by default, use "
+"the keyword ALL (or the netmask 0.0.0.0/0) and then explicitly specify in "
+"the hosts allow parameter those hosts that should be permitted access. Leave "
+"this field empty to use default settings."
+msgstr ""
+"该选项为用逗号/空格/制表符分隔的 拒绝 访问该模块的主机列表。当访问列表冲突时，允许访问（白名单）生效。如需要默认拒绝所有主机，使用 ALL 关键字（"
+"或使用子网掩码 0.0.0.0/0），然后增加允许访问的主机列表。选项为空时使用默认设置。"
+
+#: services/models.py:1984
+#, fuzzy
+msgid ""
+"These parameters will be added to the module configuration in rsyncd.conf."
+msgstr "这些参数已经添加到 rsyncd.conf 的模块配置部分"
+
+#: services/models.py:2006
+#, fuzzy
+msgid ""
+"Set the interval between disk checks to N minutes. The default is 30 minutes."
+msgstr "设置硬盘检查间隔时间（分钟）。默认是30分钟。"
+
+#: services/models.py:2018
+#, fuzzy
+msgid ""
+"Report if the temperature has changed by at least N degrees Celsius since "
+"the last report. 0 to disable."
+msgstr "报告温度自上一次报告后最少有 N 摄氏度的变化。0 为禁用。"
+
+#: services/models.py:2024
+#, fuzzy
+msgid ""
+"Report as informational in the system log if the temperature is greater or "
+"equal than N degrees Celsius. 0 to disable."
+msgstr "当温度高于或等于N摄氏度的时将信息报告记录在系统日志。0是禁用。"
+
+#: services/models.py:2031
+#, fuzzy
+msgid ""
+"Report as critical in the system log and send an email if the temperature is "
+"greater or equal than N degrees Celsius. 0 to disable."
+msgstr "当温度大于或等于N摄氏度时将信息记录到系统日志并发送电子邮件报告。0为禁用"
+
+#: services/models.py:2039
+#, fuzzy
+msgid "Destination email address. Separate email addresses with commas."
+msgstr "接收邮件的地址。多个邮件地址使用分号做间隔。"
+
+#: services/models.py:2184
+#, fuzzy
+msgid ""
+"The port on which WebDAV will run.<br>Do not use a port that is already in "
+"use by another service (e.g. 22 for SSH)."
+msgstr "此为WebDAV服务运行的端口。<br>请勿使用已被其他服务占用的端口(例如：SSH服务所使用的22端口)。"
+
+#: services/models.py:2193
+#, fuzzy
+msgid ""
+"The port on which Secure WebDAV will run.<br>Do not use a port that is "
+"already in use by another service (e.g. 22 for SSH)."
+msgstr "此为安全WebDAV服务运行的端口。<br>请勿使用已被其他服务占用的端口(例如：SSH服务所使用的22端口)。"
+
+#: services/models.py:2210
+#, fuzzy
+msgid ""
+"Type of HTTP Authentication for WebDAV<br>Basic Auth: Password is sent over "
+"the network as plaintext (Avoid if HTTPS is disabled) <br>Digest Auth: The "
+"hash of the password is sent over the network (more secure)."
+msgstr ""
+"WebDAV 服务的 HTTP 身份认证类型<br>基础身份认证: 密码通过明文传输(若未启用 HTTPS 请勿使用)<br>摘要身份认证: "
+"密码经过哈希后再行传送(更安全)"
+
+#: sharing/admin.py:80
+msgid ""
+"full_audit VFS object is known to have file transfer issues with Windows 10. "
+"Do you wish to continue?"
+msgstr ""
+
+#: sharing/forms.py:464
+msgid "This option can only be used for datasets."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: storage/admin.py:144
+#: storage/forms.py:1196
+#: storage/forms.py:1429
+#: storage/forms.py:1513
+#, fuzzy
+msgid "Comments"
+msgstr "注释"
+
+#: storage/forms.py:2011
+#, fuzzy
+msgid "Setup mode"
+msgstr "安全模式"
+
+#: storage/forms.py:2013
+#, fuzzy
+msgid "Manual"
+msgstr "手动更新"
+
+#: storage/forms.py:2014
+#, fuzzy
+msgid "Semi-automatic"
+msgstr "自动"
+
+#: storage/forms.py:2025
+#, fuzzy
+msgid "Remote HTTP/HTTPS Port"
+msgstr "远程 SSH 端口"
+
+#: storage/forms.py:2030
+#, fuzzy
+msgid "Remote HTTPS"
+msgstr "远程主机"
+
+#: storage/forms.py:2035
+#, fuzzy
+msgid "Remote Auth Token"
+msgstr "远程主机密钥"
+
+#: storage/forms.py:2222
+msgid "I'm aware this will destroy snapshots of this zvol"
+msgstr ""
+
+#: storage/forms.py:2187
+#, fuzzy
+msgid "Token is invalid."
+msgstr "用户 %s 无效。"
+
+#: storage/forms.py:2191
+#, fuzzy
+msgid "Failed to connect to remote: %s"
+msgstr "连接失败：%s"
+
+#: system/forms.py:1003
+#, fuzzy
+msgid "Invalid syslog server format"
+msgstr "无效服务包"
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "访问模式"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "密码"
+
+#: system/models.py:348
+msgid "Use FQDN for logging"
+msgstr ""
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "域账户名"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "无效服务包"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "无效的前缀"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "必须提供一个keytab。"
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+#, fuzzy
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr "禁用操作将不会停止任何正在进行的Replications任务。"
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/forms.py:96
+#, fuzzy
+msgid "Folder \"%s\" does not exist."
+msgstr "Jail 不存在"
+
+#: tasks/models.py:52
+#, fuzzy
+msgid "Push - From local to remote. Pull - From remote to local."
+msgstr "推-从本地到远程。拉-从远程到本地。"
+
+#: tasks/views.py:53
+#, fuzzy
+msgid "The cloud sync process has started"
+msgstr "Rsync进程已启动"
+
+#: templates/storage/replication_datagrid.html:17
+#: templates/storage/replication_datagrid.html:19
+msgid "Temporary Auth Token"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "是否立即运行此Rsync任务？"

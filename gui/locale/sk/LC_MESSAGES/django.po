@@ -1184,12 +1184,10 @@ msgid "Plugins jail path"
 msgstr ""
 
 #: plugins/forms.py:218
-#, fuzzy
 msgid "Jail IPv4 Address"
 msgstr "Emailová adresa"
 
 #: plugins/forms.py:222
-#, fuzzy
 msgid "Jail IPv4 Netmask"
 msgstr "IPv4 sieťová maska"
 
@@ -1210,7 +1208,7 @@ msgid "The full path cannot exceed 88 characters"
 msgstr ""
 
 #: plugins/forms.py:336
-#, fuzzy, python-format
+#, python-format
 msgid "The path could not be mounted %s"
 msgstr "Cache nemôže byť obnovená"
 
@@ -1300,7 +1298,6 @@ msgid "Mount Point"
 msgstr "Prípojný bod"
 
 #: plugins/models.py:122
-#, fuzzy
 msgid "Mount Points"
 msgstr "Prípojný bod"
 
@@ -1310,7 +1307,6 @@ msgid "Plugin successfully updated."
 msgstr "%s úspešne aktualizovaný."
 
 #: plugins/views.py:80
-#, fuzzy
 msgid "Plugin successfully removed."
 msgstr "Zväzok úspešne pridaný."
 
@@ -1333,7 +1329,6 @@ msgid "There was a problem importing the jail."
 msgstr ""
 
 #: plugins/views.py:204
-#, fuzzy
 msgid "Jail successfully imported."
 msgstr "%s úspešne aktualizovaný."
 
@@ -1364,12 +1359,10 @@ msgid "The NFS service failed to reload."
 msgstr "Službu NFS sa nepodarilo načítať."
 
 #: services/forms.py:157
-#, fuzzy
 msgid "This IP already exists."
 msgstr "Používateľ s takýmto menom už existuje."
 
 #: services/forms.py:164
-#, fuzzy
 msgid "The Plugins Jail service failed to reload."
 msgstr "Službu AFP sa nepodarilo načítať."
 
@@ -1806,7 +1799,6 @@ msgid "Home directories"
 msgstr "Domovské adresáre"
 
 #: services/models.py:160
-#, fuzzy
 msgid "Homes auxiliary parameters"
 msgstr "Pomocné parametre"
 
@@ -2355,12 +2347,10 @@ msgid "Dynamic DNS"
 msgstr "Dynamické DNS"
 
 #: services/models.py:804
-#, fuzzy
 msgid "Path to the plugins jail"
 msgstr "Cesta k extent-u"
 
 #: services/models.py:809
-#, fuzzy
 msgid "Jail name"
 msgstr "Doména"
 
@@ -2375,12 +2365,10 @@ msgid ""
 msgstr ""
 
 #: services/models.py:821
-#, fuzzy
 msgid "Jail IP address"
 msgstr "Emailová adresa"
 
 #: services/models.py:825
-#, fuzzy
 msgid "Jail IP Netmask"
 msgstr "IPv4 sieťová maska"
 
@@ -2475,7 +2463,6 @@ msgstr ""
 "vyprší, vypnutie je zrušené."
 
 #: services/models.py:933
-#, fuzzy
 msgid "UPS Master User Password"
 msgstr "Heslo zdieľania"
 
@@ -2854,7 +2841,6 @@ msgid "Administrator Name"
 msgstr "Meno administrátora"
 
 #: services/models.py:1264
-#, fuzzy
 msgid "Domain Administrator account name"
 msgstr "Heslo konta administrátora domény."
 
@@ -2863,7 +2849,6 @@ msgid "Administrator Password"
 msgstr "Heslo administrátora"
 
 #: services/models.py:1269
-#, fuzzy
 msgid "Domain Administrator account password."
 msgstr "Heslo konta administrátora domény."
 
@@ -3168,23 +3153,19 @@ msgstr "Riadiace služby"
 #~ msgstr "Pridať Extent zariadenia"
 
 #: services/nav.py:79
-#, fuzzy
 msgid "View Device Extents"
 msgstr "Zobraziť všetky Extenty zariadenia"
 
 #: services/nav.py:92
-#, fuzzy
 msgid "File Extents"
 msgstr "Rozšírenia zariadenia"
 
 #: services/nav.py:111 templates/services/iscsi_extents.html:39
 #: templates/services/iscsi_extents.html:41
-#, fuzzy
 msgid "Add File Extent"
 msgstr "Pridať Extent zariadenia"
 
 #: services/nav.py:118
-#, fuzzy
 msgid "View File Extents"
 msgstr "Zobraziť všetky Extenty"
 
@@ -3212,7 +3193,6 @@ msgid "Settings"
 msgstr "Nastavenia"
 
 #: services/nav.py:186
-#, fuzzy
 msgid "Management"
 msgstr "iSCSI Manažment"
 
@@ -3523,12 +3503,10 @@ msgstr ""
 #~ "Nie je odporúčané pre zdieľané adresáre používané Mac počítačmi."
 
 #: sharing/models.py:189
-#, fuzzy
 msgid "Enable .AppleDouble"
 msgstr "Žiadne .AppleDouble"
 
 #: sharing/models.py:190
-#, fuzzy
 msgid ""
 "This will enable automatic creation of the .AppleDouble directories. This "
 "option should be used if files are accessed by Mac computers."
@@ -3697,7 +3675,6 @@ msgid "Sharing"
 msgstr "Zdieľanie"
 
 #: storage/forms.py:105
-#, fuzzy
 msgid "Enter positive number (optionally suffixed by K, M, G, T), or, 0"
 msgstr "Vložte kladné čislo (volitelne s príponou M, G, T) alebo 0"
 
@@ -3722,7 +3699,6 @@ msgid "Specify custom path"
 msgstr ""
 
 #: storage/forms.py:163
-#, fuzzy
 msgid "Volume add"
 msgstr "Meno volumu/zväzku"
 
@@ -3858,7 +3834,6 @@ msgid "Reserved space for this dataset and all children"
 msgstr "Rezervované miesto pre tento dataset a všetky jeho \"deti\""
 
 #: storage/forms.py:716
-#, fuzzy
 msgid ""
 "Dataset names must begin with an alphanumeric character and may only contain "
 "\"-\", \"_\", \":\" and \".\"."
@@ -3887,7 +3862,6 @@ msgstr "Rezervované miesto pre tento dataset"
 #~ msgstr "Veľkosť tohto ZFS zväzku"
 
 #: storage/forms.py:846
-#, fuzzy
 msgid "Example: 1g"
 msgstr "0=Žiaden, príklad: 1g"
 
@@ -4182,7 +4156,6 @@ msgstr "Hosty pre vzdialenú replikáciu"
 
 #: storage/models.py:657 storage/models.py:718
 #: templates/storage/replications.html:20 templates/storage/tasks.html:21
-#, fuzzy
 msgid "Filesystem/Volume"
 msgstr "Typ súborového systému"
 
@@ -4197,7 +4170,6 @@ msgid "Remote Host"
 msgstr "Vzdialený počítač"
 
 #: storage/models.py:669
-#, fuzzy
 msgid "Remote ZFS filesystem name"
 msgstr "Vzdialený ZFS súborový systém"
 
@@ -4299,13 +4271,11 @@ msgid "View Snapshots"
 msgstr "Zobraziť všetky snímky"
 
 #: storage/nav.py:34
-#, fuzzy
 msgid "View ZFS Scrubs"
 msgstr "Zobraziť všetky skupiny"
 
 #: storage/nav.py:41 templates/storage/volumes.html:4
 #: templates/storage/volumes.html.py:6
-#, fuzzy
 msgid "Volume Manager"
 msgstr "Meno volumu/zväzku"
 
@@ -4363,7 +4333,6 @@ msgid "Volume successfully added."
 msgstr "Zväzok úspešne pridaný."
 
 #: storage/views.py:254
-#, fuzzy
 msgid "S.M.A.R.T. Extra Options"
 msgstr "S.M.A.R.T. extra možnosti"
 
@@ -4463,12 +4432,10 @@ msgid "Language (Require UI reload)"
 msgstr "Jazyk (vyžaduje opätovné načítanie UI)"
 
 #: system/forms.py:214
-#, fuzzy
 msgid "You must specify a number between 1 and 65535, inclusive."
 msgstr "Táto hodnota musí byť medzi 0 a 65535, vrátane."
 
 #: system/forms.py:216
-#, fuzzy
 msgid "Number is required."
 msgstr "Toto pole je požadované."
 
@@ -4510,12 +4477,10 @@ msgid "SHA256 sum for the image"
 msgstr "SHA256 kontrolný súčet obrazu"
 
 #: system/forms.py:538
-#, fuzzy
 msgid "Invalid firmware"
 msgstr "Neplatný firmware alebo kontrolný súčet"
 
 #: system/forms.py:544
-#, fuzzy
 msgid "Invalid checksum"
 msgstr "Neplatný firmware alebo kontrolný súčet"
 
@@ -4538,7 +4503,6 @@ msgid "Protocol"
 msgstr "Protokol"
 
 #: system/models.py:50
-#, fuzzy
 msgid "WebGUI Address"
 msgstr "Adresa IPv4"
 
@@ -5438,7 +5402,6 @@ msgid "Plugin info"
 msgstr ""
 
 #: templates/plugins/index.html:39
-#, fuzzy
 msgid "Edit Plugin"
 msgstr "Upraviť Portál"
 
@@ -5475,22 +5438,18 @@ msgid "Please wait..."
 msgstr "Prosím počkajte..."
 
 #: templates/plugins/mountpoints.html:19
-#, fuzzy
 msgid "Edit Mount Point"
 msgstr "Prípojný bod"
 
 #: templates/plugins/mountpoints.html:25
-#, fuzzy
 msgid "Delete Mount Point"
 msgstr "Prípojný bod"
 
 #: templates/plugins/mountpoints.html:32
-#, fuzzy
 msgid "No mount points defined"
 msgstr "Žiadny definovaný CronJob"
 
 #: templates/plugins/mountpoints.html:38 templates/plugins/mountpoints.html:40
-#, fuzzy
 msgid "Add Mount Point"
 msgstr "Prípojný bod"
 
@@ -5560,7 +5519,6 @@ msgid "NFS Settings"
 msgstr "NFS Nastavenia"
 
 #: templates/services/core.html:103 templates/services/core.html.py:105
-#, fuzzy
 msgid "Plugins Settings"
 msgstr "AFP Nastavenia"
 
@@ -5614,7 +5572,6 @@ msgid "Portals"
 msgstr "Portály"
 
 #: templates/services/iscsi.html:14
-#, fuzzy
 msgid "Authorized Initiators"
 msgstr "Autorizovaný Iniciátor"
 
@@ -5634,7 +5591,6 @@ msgid "Associated Targets"
 msgstr "Asociované ciele"
 
 #: templates/services/iscsi_assoctargets.html:31
-#, fuzzy
 msgid "No associated targets defined"
 msgstr "Žiadne ciele nie sú definované"
 
@@ -5654,7 +5610,6 @@ msgstr "Žiadne ciele nie sú definované"
 #~ msgstr "Autorizovaná Sieť"
 
 #: templates/services/iscsi_authini.html:35
-#, fuzzy
 msgid "No authorized initiators defined"
 msgstr "Autorizovaný Iniciátor"
 
@@ -5662,7 +5617,6 @@ msgstr "Autorizovaný Iniciátor"
 #~ msgstr "Pridať autorizovaného iniciátora"
 
 #: templates/services/iscsi_dextents.html:33
-#, fuzzy
 msgid "No device extents defined"
 msgstr "Žiadne ciele nie sú definované"
 
@@ -5670,12 +5624,10 @@ msgstr "Žiadne ciele nie sú definované"
 #~ msgstr "Pridať Extent"
 
 #: templates/services/iscsi_extents.html:5
-#, fuzzy
 msgid "File Extent"
 msgstr "Rozšírenia zariadenia"
 
 #: templates/services/iscsi_extents.html:33
-#, fuzzy
 msgid "No extents defined"
 msgstr "Žiadne ciele nie sú definované"
 
@@ -5694,7 +5646,6 @@ msgstr ""
 #~ msgstr "Zmazať Portál"
 
 #: templates/services/iscsi_portals.html:39
-#, fuzzy
 msgid "No portals defined"
 msgstr "Žiadne ciele nie sú definované"
 
@@ -5708,7 +5659,6 @@ msgstr "Žiadne ciele nie sú definované"
 #~ msgstr "Pridať Cieľ"
 
 #: templates/services/plugins.html:13 templates/services/plugins.html.py:15
-#, fuzzy
 msgid "View Mount Points"
 msgstr "Prípojný bod"
 
@@ -5750,7 +5700,6 @@ msgid "All the files within the plugins jail will be permanently deleted."
 msgstr ""
 
 #: templates/services/pluginsjail_edit.html:12
-#, fuzzy
 msgid "Delete Plugins Jail"
 msgstr "Vymazať obsiahnutý súbor"
 
@@ -5761,17 +5710,14 @@ msgstr "Vymazať obsiahnutý súbor"
 #~ msgstr "Aktívne Zdieľané Adresáre"
 
 #: templates/sharing/apple.html:7
-#, fuzzy
 msgid "There are no active Apple (AFP) shares."
 msgstr "Nie sú žiadne aktívne Apple Zdieľané Adresáre."
 
 #: templates/sharing/apple.html:29
-#, fuzzy
 msgid "Edit Apple (AFP) Share"
 msgstr "Upraviť Apple Zdieľaný Adresár"
 
 #: templates/sharing/apple.html:35
-#, fuzzy
 msgid "Delete Apple (AFP) Share"
 msgstr "Zmazať Apple Zdieľaný Adresár"
 
@@ -5779,7 +5725,6 @@ msgstr "Zmazať Apple Zdieľaný Adresár"
 #~ msgstr "Žiadne zdieľané adresáre nie sú definované"
 
 #: templates/sharing/apple.html:49 templates/sharing/apple.html.py:51
-#, fuzzy
 msgid "Add Apple (AFP) Share"
 msgstr "Pridať Apple Zideľaný Adresár"
 
@@ -5799,7 +5744,6 @@ msgid "Windows (SMB)"
 msgstr "Pridať Windows Zdieľaný Adresár (SMB)"
 
 #: templates/sharing/unix.html:7
-#, fuzzy
 msgid "There are no active UNIX (NFS) shares."
 msgstr "Nie sú žiadne aktívne UNIX Zdieľané Adresáre."
 
@@ -5807,17 +5751,14 @@ msgstr "Nie sú žiadne aktívne UNIX Zdieľané Adresáre."
 #~ msgstr "Prípojný bod"
 
 #: templates/sharing/unix.html:29
-#, fuzzy
 msgid "Edit UNIX (NFS) Share"
 msgstr "Upraviť NFS Zdieľaný Adresár"
 
 #: templates/sharing/unix.html:35
-#, fuzzy
 msgid "Delete UNIX (NFS) Share"
 msgstr "Zmazať NFS Zdieľaný Adresár"
 
 #: templates/sharing/unix.html:49 templates/sharing/unix.html.py:51
-#, fuzzy
 msgid "Add UNIX (NFS) Share"
 msgstr "Pridať UNIX Zdieľaný Adresár"
 
@@ -5965,7 +5906,6 @@ msgstr ""
 #~ msgstr "Žiadna dostupná ZFS replikácia"
 
 #: templates/storage/scrub.html:42
-#, fuzzy
 msgid "No scrub tasks defined."
 msgstr "Žiadny definovaný rsync"
 
@@ -5974,7 +5914,6 @@ msgid "Add ZFS Scrub Task"
 msgstr ""
 
 #: templates/storage/scrub.html:50
-#, fuzzy
 msgid "Add ZFS Scrub"
 msgstr "Pridať ZFS zväzok"
 
@@ -6064,7 +6003,6 @@ msgstr "každý deň"
 #~ msgstr "každý"
 
 #: templates/storage/tasks.html:147
-#, fuzzy
 msgid "There are no periodic snapshots scheduled."
 msgstr "Žiadne pravidelné vytváranie snímok nie je naplánované"
 
@@ -6130,7 +6068,6 @@ msgstr "Odstrániť sadu dát"
 #~ msgstr "Žiadne zväzky definované"
 
 #: templates/storage/wizard.html:27
-#, fuzzy
 msgid "Volume to extend"
 msgstr "Zväzky"
 
@@ -6171,7 +6108,7 @@ msgid "Replace Disk"
 msgstr "Vymeniť disk"
 
 #: templates/storage/zvols.html:3
-#, fuzzy, python-format
+#, python-format
 msgid "Create ZFS volume on %(name)s"
 msgstr "Vytvoriť ZFS zväzok (ZFS volume)"
 
@@ -6201,7 +6138,6 @@ msgstr "Aktualizácia firmware"
 
 #: templates/system/advanced_edit.html:39
 #: templates/system/advanced_edit.html:41
-#, fuzzy
 msgid "Import Plugins Jail"
 msgstr "Vymazať obsiahnutý súbor"
 
@@ -6214,17 +6150,14 @@ msgid "Are you sure you want to restore to factory config?"
 msgstr "Ste si istý, že chcete obnoviť konfiguráciu na továrenské nastavenia?"
 
 #: templates/system/cronjob.html:41
-#, fuzzy
 msgid "No cron jobs defined."
 msgstr "Žiadny definovaný CronJob"
 
 #: templates/system/cronjob.html:47
-#, fuzzy
 msgid "Add a cron job"
 msgstr "Pridať CronJob"
 
 #: templates/system/cronjob.html:49
-#, fuzzy
 msgid "Add cron job"
 msgstr "Pridať CronJob"
 
@@ -6250,12 +6183,10 @@ msgstr ""
 #~ msgstr "Doménový (DNS) server nie je definovaný"
 
 #: templates/system/ntpserver.html:44
-#, fuzzy
 msgid "Add NTP server"
 msgstr "NTP server 1"
 
 #: templates/system/ntpserver.html:46
-#, fuzzy
 msgid "Add NTP Server"
 msgstr "NTP server 1"
 
@@ -6276,22 +6207,18 @@ msgid "History"
 msgstr "Adresár"
 
 #: templates/system/rsync.html:5
-#, fuzzy
 msgid "Local Path"
 msgstr "Lokálny Master (Local Master)"
 
 #: templates/system/rsync.html:6
-#, fuzzy
 msgid "Remote"
 msgstr "Zmazať"
 
 #: templates/system/rsync.html:48
-#, fuzzy
 msgid "No rsync tasks defined."
 msgstr "Žiadny definovaný rsync"
 
 #: templates/system/rsync.html:54
-#, fuzzy
 msgid "Add rsync task"
 msgstr "Pridať rsync"
 
@@ -6330,32 +6257,26 @@ msgid "Unknown"
 msgstr "Neznáme"
 
 #: templates/system/smarttest.html:38
-#, fuzzy
 msgid "No S.M.A.R.T. tests defined"
 msgstr "Žiadne ciele nie sú definované"
 
 #: templates/system/smarttest.html:44
-#, fuzzy
 msgid "Add S.M.A.R.T. Test"
 msgstr "S.M.A.R.T."
 
 #: templates/system/smarttest.html:46
-#, fuzzy
 msgid "Add S.M.A.R.T. test"
 msgstr "S.M.A.R.T."
 
 #: templates/system/sysctl.html:34
-#, fuzzy
 msgid "No sysctl defined."
 msgstr "Žiadny definovaný rsync"
 
 #: templates/system/sysctl.html:40
-#, fuzzy
 msgid "Add sysctl"
 msgstr "Pridať rsync"
 
 #: templates/system/sysctl.html:42
-#, fuzzy
 msgid "Add Sysctl"
 msgstr "Pridať rsync"
 
@@ -6388,17 +6309,14 @@ msgid "Connected through"
 msgstr ""
 
 #: templates/system/tunable.html:34
-#, fuzzy
 msgid "No tunable setting defined."
 msgstr "Žiadne ciele nie sú definované"
 
 #: templates/system/tunable.html:40
-#, fuzzy
 msgid "Add Tunable"
 msgstr "Pridať Cieľ"
 
 #: templates/system/tunable.html:42
-#, fuzzy
 msgid "Add Loader"
 msgstr "Pridať Portál"
 
@@ -6456,15 +6374,12 @@ msgstr "Kritické"
 #~ msgid "SHA256 sum for the PBI file"
 #~ msgstr "SHA256 kontrolný súčet pre PBI súbor"
 
-#, fuzzy
 msgid "Plugin uname"
 msgstr "Doména"
 
-#, fuzzy
 msgid "Path to plugin"
 msgstr "Cesta k prípojnému bodu"
 
-#, fuzzy
 msgid "Control Plugins"
 msgstr "Riadiace služby"
 
@@ -6489,27 +6404,21 @@ msgstr "Riadiace služby"
 #~ msgid "Service Pack image to be installed"
 #~ msgstr "Service Pack obraz ktorý bude inštalovaný"
 
-#, fuzzy
 msgid "Invalid service pack"
 msgstr "Neplatný service pack alebo kontrolný súčet"
 
-#, fuzzy
 msgid "View Cron Jobs"
 msgstr "Cronjobs"
 
-#, fuzzy
 msgid "View Rsync Tasks"
 msgstr "Zobraziť disky"
 
-#, fuzzy
 msgid "View S.M.A.R.T. Tests"
 msgstr "Nastavenia S.M.A.R.T."
 
-#, fuzzy
 msgid "View Sysctls"
 msgstr "Zobraziť disky"
 
-#, fuzzy
 msgid "View Tunables"
 msgstr "Zobraziť všetkých používateľov"
 
@@ -6636,7 +6545,6 @@ msgstr "UNIX Share"
 msgid "SMB Shares"
 msgstr "UNIX Zdieľané Adresáre"
 
-#, fuzzy
 msgid "NFS Share"
 msgstr "Upraviť NFS Zdieľaný Adresár"
 
@@ -6652,11 +6560,9 @@ msgstr "Upraviť NFS Zdieľaný Adresár"
 #~ msgid "NTP server 3"
 #~ msgstr "NTP server 3"
 
-#, fuzzy
 msgid "Loader"
 msgstr "Priemerné zaťaženie"
 
-#, fuzzy
 msgid "Loaders"
 msgstr "Priemerné zaťaženie"
 
@@ -6681,7 +6587,6 @@ msgstr "Upraviť disk"
 #~ msgid "Export Volume"
 #~ msgstr "Exportovať zväzok"
 
-#, fuzzy
 msgid "Add loader"
 msgstr "Pridať Portál"
 
@@ -6987,7 +6892,6 @@ msgid "Read-Only"
 msgstr "Iba na čítanie"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Typ súborového systému"
 
@@ -7011,7 +6915,6 @@ msgid "Jail successfully started."
 msgstr "%s úspešne aktualizovaný."
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "Sada dát úspešne upravená."
 
@@ -7253,7 +7156,6 @@ msgid "Set this if you want to allow Trusted Domains."
 msgstr ""
 
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "Počet serverov"
 
@@ -9718,7 +9620,6 @@ msgid "IPv6 default gateway"
 msgstr "IPv6 predvolená brána"
 
 #: jails/nav.py:70
-#, fuzzy
 msgid "Add Jails"
 msgstr "Pridaj %s"
 
@@ -9870,7 +9771,6 @@ msgid "Certificate"
 msgstr "SSL Certifikát"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Root bind heslo"
 
@@ -9911,7 +9811,6 @@ msgstr "Meno doménového kontrolera"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "SSL Certifikát"
 
@@ -10300,7 +10199,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Iniciátor"
 
@@ -11578,7 +11476,6 @@ msgstr "Veľkosť logického bloku"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Názov Pluginu"
 
@@ -11605,7 +11502,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Snímok"
 
@@ -12171,7 +12067,6 @@ msgid ""
 msgstr "Základný názov bude pripojený automaticky, ak začína bez 'iqn.'."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Zmeniť"
 
@@ -12273,7 +12168,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "Vaše zmeny boli úspešne obnovené!"
 
@@ -12979,33 +12873,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "IP adresa kontrolera"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Vzdialený počítač"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Užívateľské meno"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Zmeniť heslo"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "Verzia OS"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Hlavné nastavenia"
 
@@ -13619,4 +13507,556 @@ msgstr "Metóda vypínania"
 msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
+msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:655
+#, fuzzy
+msgid "Volume is not encrypted."
+msgstr "Zväzky"
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Užívateľské meno"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Meno Skupiny"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Meno doménového kontrolera"
+
+#: jails/forms.py:259
+msgid "You can either enter dhcp or static ip but not both"
+msgstr ""
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Táto IP už existuje."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "Táto hodnota môže obsahovať len písmená, číslice a znaky . - _ ."
+
+#: services/forms.py:1505
+#, fuzzy
+msgid "Zvol \"%s\" does not exist"
+msgstr "Cesta k extent-u"
+
+#: services/models.py:148
+#: services/models.py:304
+#, fuzzy
+msgid ""
+"Use this option to override the username ('nobody' by default) which will be "
+"used for access to services which are specified as guest. Whatever "
+"privileges this user has will be available to any client connecting to the "
+"guest service. This user must exist in the password file, but does not "
+"require a valid login. The user root cannot be used as guest account."
+msgstr ""
+"Použite túto možnosť na zmenu používateľského mena (predvolene \"nobody\"), "
+"ktoré bude použité pre prístup k službám, ktoré sú špecifikované ako "
+"hosťovské. Akékoľvek privilégiá bude mať tento používateľ, bude prístupný "
+"akémukoľvek klientovi pripájajúcemu sa k hosťovskej službe. Tento používateľ "
+"sa musí nachádzať v súbore s heslami, ale platné prihlásenie nie je "
+"vyžadované. Používateľ root nemôže byť použitý ako hosťovský účet."
+
+#: services/models.py:177
+#, fuzzy
+msgid "These parameters are added to the [global] section of smb.conf"
+msgstr "Tieto parametre budú pridané do [Global] sekcie v smb.conf"
+
+#: services/models.py:220
+msgid ""
+"Specifies whether Samba should use (expensive) hostname lookups or use IP "
+"addresses instead. An example place where hostname lookups are currently "
+"used is when checking the hosts deny and hosts allow."
+msgstr ""
+
+#: services/models.py:244
+msgid ""
+"This boolean parameter controls the behaviour of smbd(8) when receiving a "
+"protocol request of \"open for execution\" from a Windows client. With Samba "
+"3.6 and older, the execution right in the ACL was not checked, so a client "
+"could execute a file even if it did not have execute rights on the file. In "
+"Samba 4.0, this has been fixed, so that by default, i.e. when this parameter "
+"is set to \"False\", \"open for execution\" is now denied when execution "
+"permissions are not present. If this parameter is set to \"True\", Samba "
+"does not check execute permissions on \"open for execution\", thus re-"
+"establishing the behavior of Samba 3.6 "
+msgstr ""
+
+#: services/models.py:265
+msgid ""
+"IP addresses to bind to. If none specified, all available interfaces that "
+"are up will be listened on."
+msgstr ""
+
+#: services/models.py:296
+#, fuzzy
+msgid "Allows guest access to all Apple shares on this box."
+msgstr ""
+"Povolenie hosťovského prístupu ku všetkým apple zdieľaným adresárom na tomto "
+"zariadeni."
+
+#: services/models.py:315
+msgid ""
+"IP addresses to advertise and listens to. If none specified, advertise the "
+"first IP address of the system, but to listen for any incoming request."
+msgstr ""
+
+#: services/models.py:333
+#, fuzzy
+msgid "Enable/disable home directories for AFP user."
+msgstr "Aktivuje/deaktivuje domovské adresáre pre samba používateľa."
+
+#: services/models.py:343
+msgid "When set, overrides the default Home Share Name."
+msgstr ""
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:357
+#, fuzzy
+msgid "These parameters are added to the [Global] section of afp.conf"
+msgstr "Tieto parametre budú pridané do [Global] sekcie v smb.conf"
+
+#: services/models.py:362
+msgid ""
+"How to map the effective permissions of authenticated users: Rights ("
+"default, Unix-style permissions), Mode (ACLs), or None"
+msgstr ""
+
+#: services/models.py:383
+#, fuzzy
+msgid ""
+"Specifies how many servers to create. There should be enough to handle the "
+"maximum level of concurrency from clients, typically four to six."
+msgstr ""
+"Určuje koľko serverov vytvoriť. Malo by ich dostatok na zvládnutie "
+"maximalnej hladiny súbežných klientov, typicky štyri až šesť."
+
+#: services/models.py:421
+msgid ""
+"Select the IP addresses to listen to for NFS requests. If left unchecked, "
+"NFS will listen on all available addresses."
+msgstr ""
+
+#: services/models.py:442
+msgid ""
+"Forces the rpc.statd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:451
+msgid ""
+"Force the rpc.lockd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:458
+msgid ""
+"Ignore the group membership sent on the wire by the NFS client and look up "
+"the group membership on the server.  Note that this option is mutually "
+"incompatible with the NFSv3 ownership model for NFSv4."
+msgstr ""
+
+#: services/models.py:467
+msgid "Enable/disable mountd logging into syslog."
+msgstr ""
+
+#: services/models.py:473
+msgid "Enable/disable statd and lockd logging into syslog."
+msgstr ""
+
+#: services/models.py:565
+#, fuzzy
+msgid ""
+"Size of extent: 0 means auto, a raw number is bytes, or suffix with KB, MB, "
+"or TB for convenience."
+msgstr ""
+"Veľkosť extent-u, 0 znamená automatické nastavenie, čislo bez prípony je v "
+"bytoch, alebo použite príponu KB, MB, TB pre zjednodušenie."
+
+#: services/models.py:573
+#, fuzzy
+msgid ""
+"Logical block length (512 by default). The recommended length for "
+"compatibility is 512."
+msgstr ""
+"Môžete určiť dĺžku logického bloku (predvolene 512). Pre zachovanie "
+"kompatibility, odporúčaná dĺžka je 512."
+
+#: services/models.py:581
+msgid ""
+"By default, the physical blocksize is reported as the ZFS block size, which "
+"can be up to 128K. Some initiators do not work with values above 4K. "
+"Checking this disables reporting the physical blocksize."
+msgstr ""
+
+#: services/models.py:597
+#: services/models.py:700
+#, fuzzy
+msgid "A description can be entered here for your reference."
+msgstr "Tu možes zadať popis slúžiaci na identifikáciu."
+
+#: services/models.py:626
+msgid ""
+"RPM reported to initiators for this extent/LUN. The default is SSD because "
+"Windows will attempt to defrag non SSD devices.  This is a pathological "
+"worst-case situation for ZFS.  VMWare gives the option to use SSD LUNs as "
+"swap devices. There is some value to picking a non-SSD RPM if your extent is "
+"indeed not SSDs and the initiator will be VMWare."
+msgstr ""
+
+#: services/models.py:1441
+#, fuzzy
+msgid "Override the file creation mask (077 by default)."
+msgstr ""
+"Použite túto možnosť na nastavenie masky pri vytváraní súborov ​​(077 v "
+"predvolenom nastavení)."
+
+#: services/models.py:1449
+#, fuzzy
+msgid "Override the directory creation mask (077 by default)."
+msgstr ""
+"Použite túto voľbu na nahradenie masky pri tvorbe adresárov (0777 v "
+"predvolenom nastavení)."
+
+#: services/models.py:1479
+#, fuzzy
+msgid ""
+"Cause the server to display the network information for the specified "
+"address to the client, on the assumption that IP address or DNS host is "
+"acting as a NAT gateway or port forwarder for the server."
+msgstr ""
+"Spôsobuje zobrazenie sieťových informácií pre požadovanú IP adresu serverom "
+"za predpokladu, že IP adresa alebo DNS názov je vo funkcii NAT brány alebo "
+"presmerovača portov pre server."
+
+#: services/models.py:1935
+#, fuzzy
+msgid "Control the access a remote host has to this module"
+msgstr "Toto kontroluje aký prístup má vzdialený host do tohto modulu"
+
+#: services/models.py:1941
+#, fuzzy
+msgid "Maximum number of simultaneous connections. Default is 0 (unlimited)."
+msgstr ""
+"Maximálny počet súčasných pripojení. Predvolené nastavenie je 0 (neobmedzené)"
+
+#: services/models.py:1948
+#, fuzzy
+msgid ""
+"Specify the user name for file transfers to and from that module. In "
+"combination with the 'Group' option, this determines which file permissions "
+"are available. Leave this field empty to use default settings."
+msgstr ""
+"Toto nastavenie špecifikuje užívateľské meno, ktoré prenos súboru do a z "
+"tohto modulu by sa malo uskutočniť. V kombinácii s nastavením \"Skupiny\" "
+"toto determinuje aké oprávnenia sú dostupné. Nechaj toto pole prázdne pre "
+"použitie predvoleného nastavenia"
+
+#: services/models.py:1958
+#, fuzzy
+msgid ""
+"Specify the group name for file transfers to and from that module. Leave "
+"this field empty to use default settings."
+msgstr ""
+"Toto nastavenie špecifikuje meno skupiny, kde prenos súboru do a z tohto "
+"modulu by sa mal uskutočniť. Nechaj toto pole prázdne pre použitie "
+"predvoleného nastavenia"
+
+#: services/models.py:1964
+#, fuzzy
+msgid ""
+"This option is a comma, space, or tab delimited set of hosts which are "
+"permitted to access this module. You can specify the hosts by name or IP "
+"number. Leave this field empty to use default settings."
+msgstr ""
+"Táto možnosť je sada hostiteľov oprávnených k prístupu k tomuto modulu, "
+"oddelených čiarkou, medzerou alebo tabulátorom. Môžete špecifikovať "
+"hostiteľov názvom alebo IP adresou. Ponechajte toto pole prázdne pre "
+"uplatnenie predvolených nastavení"
+
+#: services/models.py:1972
+#, fuzzy
+msgid ""
+"A comma, space, or tab-delimited set of hosts which are NOT permitted to "
+"access this module. Where the lists conflict, the allow list takes "
+"precedence. In the event that it is necessary to deny all by default, use "
+"the keyword ALL (or the netmask 0.0.0.0/0) and then explicitly specify in "
+"the hosts allow parameter those hosts that should be permitted access. Leave "
+"this field empty to use default settings."
+msgstr ""
+"Táto možnosť obsahuje zoznam hostiteľov oddelených čiarkou, medzerou alebo "
+"tabulátorom, ktorí NIE sú oprávnení k prístupu k tomuto modulu. Keď si "
+"zoznamy odporujú, zoznam povolení má prednosť pred zoznamom zákazov. Keď je "
+"nevyhnutné predvolene zakázať všetkých hostiteľov, použite kľúčové slovo ALL "
+"(alebo sieťovú masku 0.0.0.0/0) a potom v zozname s povoleniami explicitne "
+"špecifikujte parametre tých hostiteľov, ktoré majú mať povolený prístup. "
+"Ponechajte toto pole prázdne pre uplatnenie predvolených nastavení"
+
+#: services/models.py:1984
+#, fuzzy
+msgid ""
+"These parameters will be added to the module configuration in rsyncd.conf."
+msgstr "Tieto parametre budú pridané do konfigurácie modulov v rsyncd.conf"
+
+#: services/models.py:2006
+#, fuzzy
+msgid ""
+"Set the interval between disk checks to N minutes. The default is 30 minutes."
+msgstr ""
+"Nastaví interval medzi kontrolami disku na N minút. Predvolené nastavenie je "
+"30 minút."
+
+#: services/models.py:2018
+#, fuzzy
+msgid ""
+"Report if the temperature has changed by at least N degrees Celsius since "
+"the last report. 0 to disable."
+msgstr ""
+"Oznám ak sa teplota zmenila o minimálne N stupňov Celziových od posledného "
+"oznámenia. 0 pre vypnutie"
+
+#: services/models.py:2024
+#, fuzzy
+msgid ""
+"Report as informational in the system log if the temperature is greater or "
+"equal than N degrees Celsius. 0 to disable."
+msgstr "Oznám ak je teplota väčšia alebo rovná N stupňov Celzia. 0 pre vypnutie"
+
+#: services/models.py:2031
+#, fuzzy
+msgid ""
+"Report as critical in the system log and send an email if the temperature is "
+"greater or equal than N degrees Celsius. 0 to disable."
+msgstr "Oznám ak je teplota väčšia alebo rovná N stupňov Celzia. 0 pre vypnutie"
+
+#: services/models.py:2039
+#, fuzzy
+msgid "Destination email address. Separate email addresses with commas."
+msgstr "Cieľova emailová adresa. Oddelte emailové adresy bodkočiarkou"
+
+#: services/models.py:2184
+msgid ""
+"The port on which WebDAV will run.<br>Do not use a port that is already in "
+"use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2193
+msgid ""
+"The port on which Secure WebDAV will run.<br>Do not use a port that is "
+"already in use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2210
+msgid ""
+"Type of HTTP Authentication for WebDAV<br>Basic Auth: Password is sent over "
+"the network as plaintext (Avoid if HTTPS is disabled) <br>Digest Auth: The "
+"hash of the password is sent over the network (more secure)."
+msgstr ""
+
+#: sharing/admin.py:80
+msgid ""
+"full_audit VFS object is known to have file transfer issues with Windows 10. "
+"Do you wish to continue?"
+msgstr ""
+
+#: sharing/forms.py:464
+msgid "This option can only be used for datasets."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: storage/admin.py:144
+#: storage/forms.py:1196
+#: storage/forms.py:1429
+#: storage/forms.py:1513
+#, fuzzy
+msgid "Comments"
+msgstr "Komentár"
+
+#: storage/forms.py:2011
+#, fuzzy
+msgid "Setup mode"
+msgstr "Režim energie"
+
+#: storage/forms.py:2013
+#, fuzzy
+msgid "Manual"
+msgstr "Aktualizácia"
+
+#: storage/forms.py:2014
+#, fuzzy
+msgid "Semi-automatic"
+msgstr "Automaticky"
+
+#: storage/forms.py:2025
+#, fuzzy
+msgid "Remote HTTP/HTTPS Port"
+msgstr "Vzdialený počítač"
+
+#: storage/forms.py:2030
+#, fuzzy
+msgid "Remote HTTPS"
+msgstr "Vzdialený počítač"
+
+#: storage/forms.py:2035
+#, fuzzy
+msgid "Remote Auth Token"
+msgstr "Vzdialený hostkľúč (hostkey)"
+
+#: storage/forms.py:2222
+msgid "I'm aware this will destroy snapshots of this zvol"
+msgstr ""
+
+#: storage/forms.py:2187
+#, fuzzy
+msgid "Token is invalid."
+msgstr "Používateľ %s neexistuje."
+
+#: storage/forms.py:2191
+#, fuzzy
+msgid "Failed to connect to remote: %s"
+msgstr "Nemohlo byť získané %(url)s: %(error)s"
+
+#: system/forms.py:1003
+#, fuzzy
+msgid "Invalid syslog server format"
+msgstr "Neplatný service pack alebo kontrolný súčet"
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Spôsob prístupu"
+
+# Heslo po cz/neviem ako to ma byt spravne
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Heslo"
+
+#: system/models.py:348
+msgid "Use FQDN for logging"
+msgstr ""
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Doména"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Neplatný service pack alebo kontrolný súčet"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Neplatná predpona (prefix)"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Toto pole je povinné"
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/forms.py:96
+#, fuzzy
+msgid "Folder \"%s\" does not exist."
+msgstr "Cesta k extent-u"
+
+#: tasks/models.py:52
+msgid "Push - From local to remote. Pull - From remote to local."
+msgstr ""
+
+#: tasks/views.py:53
+msgid "The cloud sync process has started"
+msgstr ""
+
+#: templates/storage/replication_datagrid.html:17
+#: templates/storage/replication_datagrid.html:19
+msgid "Temporary Auth Token"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+msgid "Would you like to run this cloud sync now?"
 msgstr ""

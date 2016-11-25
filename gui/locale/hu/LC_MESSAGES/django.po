@@ -1177,7 +1177,7 @@ msgid "You must turn off Plugins service before proceeding"
 msgstr ""
 
 #: plugins/forms.py:183
-#, fuzzy, python-format
+#, python-format
 msgid "The path %s already exists"
 msgstr "Ilyen csoportazonosító (GID) már létezik."
 
@@ -1198,12 +1198,10 @@ msgid "Plugins jail path"
 msgstr ""
 
 #: plugins/forms.py:218
-#, fuzzy
 msgid "Jail IPv4 Address"
 msgstr "Vezérlő IP címe"
 
 #: plugins/forms.py:222
-#, fuzzy
 msgid "Jail IPv4 Netmask"
 msgstr "IPv4 hálózati maszk"
 
@@ -1321,7 +1319,6 @@ msgid "Plugin successfully updated."
 msgstr "%s sikeresen módosítva!"
 
 #: plugins/views.py:80
-#, fuzzy
 msgid "Plugin successfully removed."
 msgstr "%s sikeresen hozzáadva!"
 
@@ -1343,7 +1340,6 @@ msgid "There was a problem importing the jail."
 msgstr ""
 
 #: plugins/views.py:204
-#, fuzzy
 msgid "Jail successfully imported."
 msgstr "%s sikeresen módosítva!"
 
@@ -1802,7 +1798,6 @@ msgid "Home directories"
 msgstr "Saját könyvtárak"
 
 #: services/models.py:160
-#, fuzzy
 msgid "Homes auxiliary parameters"
 msgstr "Kiegészítő paraméterek"
 
@@ -1931,7 +1926,6 @@ msgid "Base Name"
 msgstr "Alap név"
 
 #: services/models.py:258
-#, fuzzy
 msgid ""
 "The base name (e.g. iqn.2007-09.jp.ne.peach.istgt, see RFC 3720 and 3721 for "
 "details) will append the target name that is not starting with 'iqn.'"
@@ -2362,12 +2356,10 @@ msgid ""
 msgstr ""
 
 #: services/models.py:821
-#, fuzzy
 msgid "Jail IP address"
 msgstr "Vezérlő IP címe"
 
 #: services/models.py:825
-#, fuzzy
 msgid "Jail IP Netmask"
 msgstr "IPv4 hálózati maszk"
 
@@ -2461,7 +2453,6 @@ msgstr ""
 "idő alatt akkor a leállítási folyamat nem lesz elindítva."
 
 #: services/models.py:933
-#, fuzzy
 msgid "UPS Master User Password"
 msgstr "Megosztás jelszava"
 
@@ -2818,7 +2809,6 @@ msgid "Administrator Name"
 msgstr "Adminisztrátor neve"
 
 #: services/models.py:1264
-#, fuzzy
 msgid "Domain Administrator account name"
 msgstr "Domain Adminisztrátor fiók jelszava."
 
@@ -2827,7 +2817,6 @@ msgid "Administrator Password"
 msgstr "Adminisztrátor jelszava"
 
 #: services/models.py:1269
-#, fuzzy
 msgid "Domain Administrator account password."
 msgstr "Domain Adminisztrátor fiók jelszava."
 
@@ -3064,7 +3053,6 @@ msgid ""
 msgstr ""
 
 #: services/models.py:1475
-#, fuzzy
 msgid "Informal"
 msgstr "Normális"
 
@@ -3104,12 +3092,10 @@ msgid "Add Device Extent"
 msgstr ""
 
 #: services/nav.py:79
-#, fuzzy
 msgid "View Device Extents"
 msgstr "Minden állandó útvonal mutatása"
 
 #: services/nav.py:92
-#, fuzzy
 msgid "File Extents"
 msgstr "Minden felhasználó mutatása"
 
@@ -3119,7 +3105,6 @@ msgid "Add File Extent"
 msgstr ""
 
 #: services/nav.py:118
-#, fuzzy
 msgid "View File Extents"
 msgstr "Minden felhasználó mutatása"
 
@@ -3612,7 +3597,6 @@ msgid "Specify custom path"
 msgstr ""
 
 #: storage/forms.py:163
-#, fuzzy
 msgid "Volume add"
 msgstr "Kötetnév"
 
@@ -3767,17 +3751,14 @@ msgid "Reserved space for this volume"
 msgstr "Adatcsoport számára lefoglalt tárhely"
 
 #: storage/forms.py:842
-#, fuzzy
 msgid "ZFS Volume Name"
 msgstr "ZFS kötet"
 
 #: storage/forms.py:845
-#, fuzzy
 msgid "Size for this ZFS Volume"
 msgstr "ZFS kötet"
 
 #: storage/forms.py:846
-#, fuzzy
 msgid "Example: 1g"
 msgstr "0=Semmi; például: 1g"
 
@@ -3973,7 +3954,7 @@ msgid "Every minute"
 msgstr "Miden percben"
 
 #: storage/models.py:265 system/models.py:393 system/models.py:602
-#, fuzzy, python-format
+#, python-format
 msgid "Every %s minute(s)"
 msgstr "Minden %s percben"
 
@@ -3990,7 +3971,7 @@ msgstr ""
 
 #: storage/models.py:281 system/models.py:409 system/models.py:618
 #: system/models.py:705
-#, fuzzy, python-format
+#, python-format
 msgid "Every %s days"
 msgstr "Minden nap"
 
@@ -4069,7 +4050,6 @@ msgstr ""
 
 #: storage/models.py:657 storage/models.py:718
 #: templates/storage/replications.html:20 templates/storage/tasks.html:21
-#, fuzzy
 msgid "Filesystem/Volume"
 msgstr "Kötet létrehozása"
 
@@ -4184,13 +4164,11 @@ msgid "View Snapshots"
 msgstr "Pillanatkép"
 
 #: storage/nav.py:34
-#, fuzzy
 msgid "View ZFS Scrubs"
 msgstr "Minden csoport mutatása"
 
 #: storage/nav.py:41 templates/storage/volumes.html:4
 #: templates/storage/volumes.html.py:6
-#, fuzzy
 msgid "Volume Manager"
 msgstr "Kötetnév"
 
@@ -4222,7 +4200,6 @@ msgstr "Kötetek"
 
 #: storage/nav.py:108 templates/storage/volumes.html:129
 #: templates/storage/volumes.html.py:133
-#, fuzzy
 msgid "Create ZFS Volume"
 msgstr "ZFS kötet"
 
@@ -4306,7 +4283,6 @@ msgid "Rollback successful."
 msgstr "Visszavonás sikeres."
 
 #: storage/views.py:634
-#, fuzzy
 msgid "Snapshot successfully added."
 msgstr "%s sikeresen törölve!"
 
@@ -4358,12 +4334,10 @@ msgid "Language (Require UI reload)"
 msgstr "Nyelv (szükséges az UI újratöltése)"
 
 #: system/forms.py:214
-#, fuzzy
 msgid "You must specify a number between 1 and 65535, inclusive."
 msgstr "Az értéknek 0 és 65535 között kell lennie."
 
 #: system/forms.py:216
-#, fuzzy
 msgid "Number is required."
 msgstr "Kötelező."
 
@@ -4432,7 +4406,6 @@ msgstr ""
 #~ msgstr "WebGUI címe"
 
 #: system/models.py:56
-#, fuzzy
 msgid "WebGUI Port"
 msgstr "WebGUI Port"
 
@@ -5344,7 +5317,6 @@ msgid "Plugin info"
 msgstr "Bővítmény infórmácíó"
 
 #: templates/plugins/index.html:39
-#, fuzzy
 msgid "Edit Plugin"
 msgstr "Lemez"
 
@@ -5388,7 +5360,6 @@ msgid "Delete Mount Point"
 msgstr ""
 
 #: templates/plugins/mountpoints.html:32
-#, fuzzy
 msgid "No mount points defined"
 msgstr "S.M.A.R.T. beállítások"
 
@@ -5463,7 +5434,6 @@ msgid "NFS Settings"
 msgstr ""
 
 #: templates/services/core.html:103 templates/services/core.html.py:105
-#, fuzzy
 msgid "Plugins Settings"
 msgstr "Beállítások"
 
@@ -5535,7 +5505,6 @@ msgid "Associated Targets"
 msgstr ""
 
 #: templates/services/iscsi_assoctargets.html:31
-#, fuzzy
 msgid "No associated targets defined"
 msgstr "S.M.A.R.T. beállítások"
 
@@ -5567,7 +5536,6 @@ msgid "Add Authorized Initiator"
 msgstr ""
 
 #: templates/services/iscsi_dextents.html:33
-#, fuzzy
 msgid "No device extents defined"
 msgstr "S.M.A.R.T. beállítások"
 
@@ -5577,12 +5545,10 @@ msgid "Add Extent"
 msgstr ""
 
 #: templates/services/iscsi_extents.html:5
-#, fuzzy
 msgid "File Extent"
 msgstr "Minden felhasználó mutatása"
 
 #: templates/services/iscsi_extents.html:33
-#, fuzzy
 msgid "No extents defined"
 msgstr "Nincs NTP kiszolgáló kijelölve. "
 
@@ -5602,7 +5568,6 @@ msgid "Delete Portal"
 msgstr ""
 
 #: templates/services/iscsi_portals.html:39
-#, fuzzy
 msgid "No portals defined"
 msgstr "S.M.A.R.T. beállítások"
 
@@ -5661,7 +5626,6 @@ msgstr ""
 #~ "Az összes file a bővitmény(plugin) jail-én belül véglegesen törölve lesz."
 
 #: templates/services/pluginsjail_edit.html:12
-#, fuzzy
 msgid "Delete Plugins Jail"
 msgstr "Aljzat fájlok törlése"
 
@@ -5690,7 +5654,6 @@ msgid "No shares defined"
 msgstr ""
 
 #: templates/sharing/apple.html:49 templates/sharing/apple.html.py:51
-#, fuzzy
 msgid "Add Apple (AFP) Share"
 msgstr "Apple megosztás"
 
@@ -5715,7 +5678,6 @@ msgid "Mountpoint"
 msgstr ""
 
 #: templates/sharing/unix.html:29
-#, fuzzy
 msgid "Edit UNIX (NFS) Share"
 msgstr "UNIX megosztás"
 
@@ -5723,7 +5685,6 @@ msgstr "UNIX megosztás"
 #~ msgstr "UNIX (NFS) Megosztás törlése"
 
 #: templates/sharing/unix.html:49 templates/sharing/unix.html.py:51
-#, fuzzy
 msgid "Add UNIX (NFS) Share"
 msgstr "UNIX megosztás"
 
@@ -5872,7 +5833,6 @@ msgid "No ZFS replication available"
 msgstr ""
 
 #: templates/storage/scrub.html:42
-#, fuzzy
 msgid "No scrub tasks defined."
 msgstr "S.M.A.R.T. beállítások"
 
@@ -5881,7 +5841,6 @@ msgid "Add ZFS Scrub Task"
 msgstr ""
 
 #: templates/storage/scrub.html:50
-#, fuzzy
 msgid "Add ZFS Scrub"
 msgstr "ZFS kötet"
 
@@ -6030,7 +5989,6 @@ msgid "Destroy Dataset"
 msgstr ""
 
 #: templates/storage/volumes.html:248 templates/storage/volumes.html.py:252
-#, fuzzy
 msgid "Destroy ZFS Volume"
 msgstr "ZFS kötet"
 
@@ -6050,7 +6008,6 @@ msgid "Group type"
 msgstr "Csoport típus"
 
 #: templates/storage/wizard.html:105
-#, fuzzy
 msgid "ZFS Extra"
 msgstr "ZFS Extrák"
 
@@ -6085,7 +6042,6 @@ msgstr "Lemez áthelyezése"
 #~ msgstr "ZFS kötet létrehozása a következőn: %(name)"
 
 #: templates/storage/zvols.html:6
-#, fuzzy
 msgid "Add ZFS Volume"
 msgstr "ZFS kötet"
 
@@ -6113,7 +6069,6 @@ msgstr "Firmware frissíés"
 
 #: templates/system/advanced_edit.html:39
 #: templates/system/advanced_edit.html:41
-#, fuzzy
 msgid "Import Plugins Jail"
 msgstr "Aljzat fájlok törlése"
 
@@ -6181,7 +6136,6 @@ msgstr "Előzmények"
 #~ msgstr "Helyi elérési út"
 
 #: templates/system/rsync.html:6
-#, fuzzy
 msgid "Remote"
 msgstr "Távoli megfigyelés"
 
@@ -6228,17 +6182,14 @@ msgid "Unknown"
 msgstr "Ismeretlen"
 
 #: templates/system/smarttest.html:38
-#, fuzzy
 msgid "No S.M.A.R.T. tests defined"
 msgstr "S.M.A.R.T. beállítások"
 
 #: templates/system/smarttest.html:44
-#, fuzzy
 msgid "Add S.M.A.R.T. Test"
 msgstr "S.M.A.R.T."
 
 #: templates/system/smarttest.html:46
-#, fuzzy
 msgid "Add S.M.A.R.T. test"
 msgstr "S.M.A.R.T."
 
@@ -6247,7 +6198,6 @@ msgid "No sysctl defined."
 msgstr ""
 
 #: templates/system/sysctl.html:40
-#, fuzzy
 msgid "Add sysctl"
 msgstr "Hozzáad %s"
 
@@ -6357,11 +6307,9 @@ msgstr "Kritikus riasztások"
 #~ msgid "View S.M.A.R.T. Tests"
 #~ msgstr "S.M.A.R.T. tesztek megtekintése"
 
-#, fuzzy
 msgid "View Sysctls"
 msgstr "Minden %s"
 
-#, fuzzy
 msgid "View Tunables"
 msgstr "Minden felhasználó mutatása"
 
@@ -6450,11 +6398,9 @@ msgstr "UNIX karakterkészlet"
 #~ msgid "Loader"
 #~ msgstr "Betöltő"
 
-#, fuzzy
 msgid "Loaders"
 msgstr "Átlagos terhelés"
 
-#, fuzzy
 msgid "Export Volume"
 msgstr "ZFS kötet"
 
@@ -6511,7 +6457,6 @@ msgstr "Csoporttagság"
 #~ "felhasználónak szerepelnie kell a jelszó fájlban, de nem szükséges "
 #~ "érvényes bejelentkezési engedély."
 
-#, fuzzy
 msgid "ZVol Name"
 msgstr "Teljes név"
 
@@ -7222,7 +7167,6 @@ msgid "Jail root is not configured!"
 msgstr "Nincs a börtönben gyökér beállítva."
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Kötet létrehozása"
 
@@ -7516,7 +7460,6 @@ msgid "Set this if you want to allow Trusted Domains."
 msgstr ""
 
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "Kiszolgálók száma"
 
@@ -8874,7 +8817,6 @@ msgid "Enable automatic upload of kernel crash dumps"
 msgstr ""
 
 #: system/models.py:382
-#, fuzzy
 msgid "Private key passphrase"
 msgstr "Titkosítás, nincs jelszó"
 
@@ -9531,7 +9473,6 @@ msgid "Certificate"
 msgstr ""
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Új jelszó"
 
@@ -9571,7 +9512,6 @@ msgstr "Domain vezérlő neve"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "Magunk által aláírt(Self signed) tanusítvány"
 
@@ -9961,7 +9901,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Kezdeményező"
 
@@ -11236,7 +11175,6 @@ msgstr "Logikai blokk méret"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Bővitmények"
 
@@ -11263,7 +11201,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Pillanatkép"
 
@@ -11349,7 +11286,6 @@ msgid "Verifying"
 msgstr "Ellenőrzés"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "A volume %s státusza: %(status)"
 
@@ -11839,7 +11775,6 @@ msgid ""
 msgstr ""
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Módosítás"
 
@@ -11939,7 +11874,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "A kötet sikeresen lecsatolva"
 
@@ -12644,34 +12578,28 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Vezérlő IP címe"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Távoli megfigyelés"
 
 # megnéztem, egy szó ;-)
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Felhasználónév"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Jelszó csere"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "OS verzió"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Beállítás"
 
@@ -13283,4 +13211,514 @@ msgstr "Leállítás mód"
 msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
+msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:655
+#, fuzzy
+msgid "Volume is not encrypted."
+msgstr "Kötet kiterjesztése"
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+# megnéztem, egy szó ;-)
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Felhasználónév"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Csoport Neve"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Domain vezérlő neve"
+
+#: jails/forms.py:259
+msgid "You can either enter dhcp or static ip but not both"
+msgstr ""
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Ilyen csoportazonosító (GID) már létezik."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "A közösség csak alfanumerikus jelekből, _, és - jelekből állhat."
+
+#: services/forms.py:1505
+#, fuzzy
+msgid "Zvol \"%s\" does not exist"
+msgstr "Elérési út nem létezik!"
+
+#: services/models.py:148
+#: services/models.py:304
+#, fuzzy
+msgid ""
+"Use this option to override the username ('nobody' by default) which will be "
+"used for access to services which are specified as guest. Whatever "
+"privileges this user has will be available to any client connecting to the "
+"guest service. This user must exist in the password file, but does not "
+"require a valid login. The user root cannot be used as guest account."
+msgstr ""
+"Ezzel a beállítással megváltoztatható az - alapértelmezetten \"nobody\" - "
+"felhasználónév, amivel a vendégként elérhető szolgáltatások használhatók. "
+"Amilyen jogosultság van ehhez a felhasználói fiókhoz rendelve, azt minden "
+"vendégként kapcsolódó felhasználó megkapja. Ennek a felhasználónak "
+"szerepelnie kell a jelszó fájlban, de nem szükséges érvényes bejelentkezési "
+"engedélllyel rendelkeznie. A root felhasználót nem lehet vendég-fióknak "
+"beállítani."
+
+#: services/models.py:177
+#, fuzzy
+msgid "These parameters are added to the [global] section of smb.conf"
+msgstr "Ezek a paraméterek az smb.conf fájl [Global] részéhez adódnak."
+
+#: services/models.py:220
+msgid ""
+"Specifies whether Samba should use (expensive) hostname lookups or use IP "
+"addresses instead. An example place where hostname lookups are currently "
+"used is when checking the hosts deny and hosts allow."
+msgstr ""
+
+#: services/models.py:244
+msgid ""
+"This boolean parameter controls the behaviour of smbd(8) when receiving a "
+"protocol request of \"open for execution\" from a Windows client. With Samba "
+"3.6 and older, the execution right in the ACL was not checked, so a client "
+"could execute a file even if it did not have execute rights on the file. In "
+"Samba 4.0, this has been fixed, so that by default, i.e. when this parameter "
+"is set to \"False\", \"open for execution\" is now denied when execution "
+"permissions are not present. If this parameter is set to \"True\", Samba "
+"does not check execute permissions on \"open for execution\", thus re-"
+"establishing the behavior of Samba 3.6 "
+msgstr ""
+
+#: services/models.py:265
+msgid ""
+"IP addresses to bind to. If none specified, all available interfaces that "
+"are up will be listened on."
+msgstr ""
+
+#: services/models.py:296
+#, fuzzy
+msgid "Allows guest access to all Apple shares on this box."
+msgstr "A Vendég felhasználó hozzáférhet minden Apple megosztáshoz."
+
+#: services/models.py:315
+msgid ""
+"IP addresses to advertise and listens to. If none specified, advertise the "
+"first IP address of the system, but to listen for any incoming request."
+msgstr ""
+
+#: services/models.py:333
+#, fuzzy
+msgid "Enable/disable home directories for AFP user."
+msgstr "Engedélyezi / tiltja a samba felhasználók saját könyvtárait."
+
+#: services/models.py:343
+msgid "When set, overrides the default Home Share Name."
+msgstr ""
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:357
+#, fuzzy
+msgid "These parameters are added to the [Global] section of afp.conf"
+msgstr "Ezek a paraméterek az smb.conf fájl [Global] részéhez adódnak."
+
+#: services/models.py:362
+msgid ""
+"How to map the effective permissions of authenticated users: Rights ("
+"default, Unix-style permissions), Mode (ACLs), or None"
+msgstr ""
+
+#: services/models.py:383
+msgid ""
+"Specifies how many servers to create. There should be enough to handle the "
+"maximum level of concurrency from clients, typically four to six."
+msgstr ""
+
+#: services/models.py:421
+msgid ""
+"Select the IP addresses to listen to for NFS requests. If left unchecked, "
+"NFS will listen on all available addresses."
+msgstr ""
+
+#: services/models.py:442
+msgid ""
+"Forces the rpc.statd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:451
+msgid ""
+"Force the rpc.lockd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:458
+msgid ""
+"Ignore the group membership sent on the wire by the NFS client and look up "
+"the group membership on the server.  Note that this option is mutually "
+"incompatible with the NFSv3 ownership model for NFSv4."
+msgstr ""
+
+#: services/models.py:467
+msgid "Enable/disable mountd logging into syslog."
+msgstr ""
+
+#: services/models.py:473
+msgid "Enable/disable statd and lockd logging into syslog."
+msgstr ""
+
+#: services/models.py:565
+msgid ""
+"Size of extent: 0 means auto, a raw number is bytes, or suffix with KB, MB, "
+"or TB for convenience."
+msgstr ""
+
+#: services/models.py:573
+#, fuzzy
+msgid ""
+"Logical block length (512 by default). The recommended length for "
+"compatibility is 512."
+msgstr ""
+"Megadható a logikai blokk hossza (512 az alap). Az ajánlott hossz 512 a "
+"kompatibilitás megőrzése miatt."
+
+#: services/models.py:581
+msgid ""
+"By default, the physical blocksize is reported as the ZFS block size, which "
+"can be up to 128K. Some initiators do not work with values above 4K. "
+"Checking this disables reporting the physical blocksize."
+msgstr ""
+
+#: services/models.py:597
+#: services/models.py:700
+#, fuzzy
+msgid "A description can be entered here for your reference."
+msgstr "Megadható egy leírás tájékoztatásul"
+
+#: services/models.py:626
+msgid ""
+"RPM reported to initiators for this extent/LUN. The default is SSD because "
+"Windows will attempt to defrag non SSD devices.  This is a pathological "
+"worst-case situation for ZFS.  VMWare gives the option to use SSD LUNs as "
+"swap devices. There is some value to picking a non-SSD RPM if your extent is "
+"indeed not SSDs and the initiator will be VMWare."
+msgstr ""
+
+#: services/models.py:1441
+#, fuzzy
+msgid "Override the file creation mask (077 by default)."
+msgstr "Ezzel az opcióval felülírható a fájl létrehozási maszk (alapból 077). "
+
+#: services/models.py:1449
+#, fuzzy
+msgid "Override the directory creation mask (077 by default)."
+msgstr ""
+"Ezzel az opcióval felülírható a mappa létrehozási maszk (alapértelmezés "
+"szerint 0777)."
+
+#: services/models.py:1479
+msgid ""
+"Cause the server to display the network information for the specified "
+"address to the client, on the assumption that IP address or DNS host is "
+"acting as a NAT gateway or port forwarder for the server."
+msgstr ""
+
+#: services/models.py:1935
+msgid "Control the access a remote host has to this module"
+msgstr ""
+
+#: services/models.py:1941
+#, fuzzy
+msgid "Maximum number of simultaneous connections. Default is 0 (unlimited)."
+msgstr "Maximális számú egyidejű kapcsolatok. Alapértelmezett a 0 (korlátlan)"
+
+#: services/models.py:1948
+msgid ""
+"Specify the user name for file transfers to and from that module. In "
+"combination with the 'Group' option, this determines which file permissions "
+"are available. Leave this field empty to use default settings."
+msgstr ""
+
+#: services/models.py:1958
+msgid ""
+"Specify the group name for file transfers to and from that module. Leave "
+"this field empty to use default settings."
+msgstr ""
+
+#: services/models.py:1964
+msgid ""
+"This option is a comma, space, or tab delimited set of hosts which are "
+"permitted to access this module. You can specify the hosts by name or IP "
+"number. Leave this field empty to use default settings."
+msgstr ""
+
+#: services/models.py:1972
+msgid ""
+"A comma, space, or tab-delimited set of hosts which are NOT permitted to "
+"access this module. Where the lists conflict, the allow list takes "
+"precedence. In the event that it is necessary to deny all by default, use "
+"the keyword ALL (or the netmask 0.0.0.0/0) and then explicitly specify in "
+"the hosts allow parameter those hosts that should be permitted access. Leave "
+"this field empty to use default settings."
+msgstr ""
+
+#: services/models.py:1984
+#, fuzzy
+msgid ""
+"These parameters will be added to the module configuration in rsyncd.conf."
+msgstr "Ezek a paraméterek az smb.conf fájl [Global] részéhez adódnak."
+
+#: services/models.py:2006
+msgid ""
+"Set the interval between disk checks to N minutes. The default is 30 minutes."
+msgstr ""
+
+#: services/models.py:2018
+msgid ""
+"Report if the temperature has changed by at least N degrees Celsius since "
+"the last report. 0 to disable."
+msgstr ""
+
+#: services/models.py:2024
+msgid ""
+"Report as informational in the system log if the temperature is greater or "
+"equal than N degrees Celsius. 0 to disable."
+msgstr ""
+
+#: services/models.py:2031
+msgid ""
+"Report as critical in the system log and send an email if the temperature is "
+"greater or equal than N degrees Celsius. 0 to disable."
+msgstr ""
+
+#: services/models.py:2039
+#, fuzzy
+msgid "Destination email address. Separate email addresses with commas."
+msgstr "Az e-mail címzettje. Több cím esetén pontosvesszővel (;) felsorolva."
+
+#: services/models.py:2184
+msgid ""
+"The port on which WebDAV will run.<br>Do not use a port that is already in "
+"use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2193
+msgid ""
+"The port on which Secure WebDAV will run.<br>Do not use a port that is "
+"already in use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2210
+msgid ""
+"Type of HTTP Authentication for WebDAV<br>Basic Auth: Password is sent over "
+"the network as plaintext (Avoid if HTTPS is disabled) <br>Digest Auth: The "
+"hash of the password is sent over the network (more secure)."
+msgstr ""
+
+#: sharing/admin.py:80
+msgid ""
+"full_audit VFS object is known to have file transfer issues with Windows 10. "
+"Do you wish to continue?"
+msgstr ""
+
+#: sharing/forms.py:464
+msgid "This option can only be used for datasets."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: storage/admin.py:144
+#: storage/forms.py:1196
+#: storage/forms.py:1429
+#: storage/forms.py:1513
+#, fuzzy
+msgid "Comments"
+msgstr "Megjegyzés"
+
+#: storage/forms.py:2011
+#, fuzzy
+msgid "Setup mode"
+msgstr "Leállítás mód"
+
+#: storage/forms.py:2013
+#, fuzzy
+msgid "Manual"
+msgstr "Frissítés érvényesítése"
+
+#: storage/forms.py:2014
+#, fuzzy
+msgid "Semi-automatic"
+msgstr "Automatikus indítás"
+
+#: storage/forms.py:2025
+#, fuzzy
+msgid "Remote HTTP/HTTPS Port"
+msgstr "Távoli megfigyelés"
+
+#: storage/forms.py:2030
+#, fuzzy
+msgid "Remote HTTPS"
+msgstr "Távoli útvonal"
+
+#: storage/forms.py:2035
+#, fuzzy
+msgid "Remote Auth Token"
+msgstr "Távoli útvonal"
+
+#: storage/forms.py:2222
+msgid "I'm aware this will destroy snapshots of this zvol"
+msgstr ""
+
+#: storage/forms.py:2187
+#, fuzzy
+msgid "Token is invalid."
+msgstr "A %s felhasználó érvénytelen."
+
+#: storage/forms.py:2191
+#, fuzzy
+msgid "Failed to connect to remote: %s"
+msgstr "Nem sikerült létrehozni adatkészletet: %(name)s: %(error)s"
+
+#: system/forms.py:1003
+msgid "Invalid syslog server format"
+msgstr ""
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Hozzáférési mód"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Titok"
+
+#: system/models.py:348
+msgid "Use FQDN for logging"
+msgstr ""
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Domén név"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+msgid "Invalid provider details."
+msgstr ""
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Domén név"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Egy fájl szükséges"
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/forms.py:96
+#, fuzzy
+msgid "Folder \"%s\" does not exist."
+msgstr "Elérési út nem létezik!"
+
+#: tasks/models.py:52
+msgid "Push - From local to remote. Pull - From remote to local."
+msgstr ""
+
+#: tasks/views.py:53
+msgid "The cloud sync process has started"
+msgstr ""
+
+#: templates/services/core.html:113
+#, fuzzy
+msgid "CIFS Settings"
+msgstr "Beállítások"
+
+#: templates/storage/replication_datagrid.html:17
+#: templates/storage/replication_datagrid.html:19
+msgid "Temporary Auth Token"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+msgid "Would you like to run this cloud sync now?"
 msgstr ""

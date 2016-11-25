@@ -500,7 +500,6 @@ msgid "Required. 16 characters or fewer. Letters, digits and ./-/_ only."
 msgstr "Diperlukan 16 huruf atau kurang. Kata, desimal dan /-/_ saja."
 
 #: account/forms.py:226
-#, fuzzy
 msgid "This value may contain only letters, numbers and ./-/_ characters."
 msgstr "Hanya boleh huruf, angka dan lambang @/./+/-/_"
 
@@ -897,7 +896,6 @@ msgid "Parent Interface"
 msgstr "Tampilan Induk"
 
 #: network/forms.py:245
-#, fuzzy
 msgid "The name must be vlanXX where XX is an integer"
 msgstr "Nama harus vlanXX dimana XX adalah bilangan bulat"
 
@@ -1149,12 +1147,10 @@ msgid "This IP is already in use."
 msgstr "Nama pengguna telah terdaftar. Cari yg lain."
 
 #: plugins/forms.py:92
-#, fuzzy
 msgid "Place to temporarily place PBI file"
 msgstr "Tempat untuk sementara menaruh berkas firmware"
 
 #: plugins/forms.py:93
-#, fuzzy
 msgid ""
 "The system will use this place to temporarily store the PBI file before it's "
 "installed."
@@ -1172,7 +1168,7 @@ msgid "You must turn off Plugins service before proceeding"
 msgstr ""
 
 #: plugins/forms.py:183
-#, fuzzy, python-format
+#, python-format
 msgid "The path %s already exists"
 msgstr "Nama pengguna telah terdaftar. Cari yg lain."
 
@@ -1193,12 +1189,10 @@ msgid "Plugins jail path"
 msgstr ""
 
 #: plugins/forms.py:218
-#, fuzzy
 msgid "Jail IPv4 Address"
 msgstr "Alamat Email"
 
 #: plugins/forms.py:222
-#, fuzzy
 msgid "Jail IPv4 Netmask"
 msgstr "Netmask IPv4"
 
@@ -1219,7 +1213,7 @@ msgid "The full path cannot exceed 88 characters"
 msgstr ""
 
 #: plugins/forms.py:336
-#, fuzzy, python-format
+#, python-format
 msgid "The path could not be mounted %s"
 msgstr "Cache tidak dapat dibangun ulang"
 
@@ -1310,7 +1304,6 @@ msgid "Mount Point"
 msgstr "Poin Mount"
 
 #: plugins/models.py:122
-#, fuzzy
 msgid "Mount Points"
 msgstr "Poin Mount"
 
@@ -1320,7 +1313,6 @@ msgid "Plugin successfully updated."
 msgstr "%s berhasil diperbaharui."
 
 #: plugins/views.py:80
-#, fuzzy
 msgid "Plugin successfully removed."
 msgstr "Volume berhasil ditambahkan."
 
@@ -1343,7 +1335,6 @@ msgid "There was a problem importing the jail."
 msgstr ""
 
 #: plugins/views.py:204
-#, fuzzy
 msgid "Jail successfully imported."
 msgstr "%s berhasil diperbaharui."
 
@@ -1374,12 +1365,10 @@ msgid "The NFS service failed to reload."
 msgstr "Servis NFS gagal untuk memuat ulang."
 
 #: services/forms.py:157
-#, fuzzy
 msgid "This IP already exists."
 msgstr "Nama pengguna telah terdaftar. Cari yg lain."
 
 #: services/forms.py:164
-#, fuzzy
 msgid "The Plugins Jail service failed to reload."
 msgstr "Servis AFP gagal untuk memuat ulang."
 
@@ -1804,7 +1793,6 @@ msgid "Home directories"
 msgstr "Direktori home"
 
 #: services/models.py:160
-#, fuzzy
 msgid "Homes auxiliary parameters"
 msgstr "Parameter tambahan"
 
@@ -2354,12 +2342,10 @@ msgid "Dynamic DNS"
 msgstr "DNS Dinamis"
 
 #: services/models.py:804
-#, fuzzy
 msgid "Path to the plugins jail"
 msgstr "Path ekstensi"
 
 #: services/models.py:809
-#, fuzzy
 msgid "Jail name"
 msgstr "Nama domain"
 
@@ -2374,12 +2360,10 @@ msgid ""
 msgstr ""
 
 #: services/models.py:821
-#, fuzzy
 msgid "Jail IP address"
 msgstr "Alamat Email"
 
 #: services/models.py:825
-#, fuzzy
 msgid "Jail IP Netmask"
 msgstr "Netmask IPv4"
 
@@ -2475,7 +2459,6 @@ msgstr ""
 "sebelum waktu habis, maka pematian dibatalkan."
 
 #: services/models.py:933
-#, fuzzy
 msgid "UPS Master User Password"
 msgstr "Kata sandi berbagi"
 
@@ -2850,7 +2833,6 @@ msgid "Administrator Name"
 msgstr "Nama Admin"
 
 #: services/models.py:1264
-#, fuzzy
 msgid "Domain Administrator account name"
 msgstr "Kata Sandi akun Admin Domain."
 
@@ -2859,7 +2841,6 @@ msgid "Administrator Password"
 msgstr "Kata Sandi Admin"
 
 #: services/models.py:1269
-#, fuzzy
 msgid "Domain Administrator account password."
 msgstr "Kata Sandi akun Admin Domain."
 
@@ -2973,12 +2954,10 @@ msgstr ""
 "Parameter ini menentukan jika menggunakan SSL/TLS, e.g. on/off/start_tls"
 
 #: services/models.py:1345
-#, fuzzy
 msgid "Self signed certificate"
 msgstr "Setifikat sendiri"
 
 #: services/models.py:1347
-#, fuzzy
 msgid "Place the contents of your self signed certificate file here."
 msgstr "Tempatkan konten dari berkas sertifikat sendiri anda disini."
 
@@ -3163,23 +3142,19 @@ msgstr "Servis Kontrol"
 #~ msgstr "Tambahkan ekstensi perangkat"
 
 #: services/nav.py:79
-#, fuzzy
 msgid "View Device Extents"
 msgstr "Lihat semua ekstensi perangkat"
 
 #: services/nav.py:92
-#, fuzzy
 msgid "File Extents"
 msgstr "Ekstensi Perangkat"
 
 #: services/nav.py:111 templates/services/iscsi_extents.html:39
 #: templates/services/iscsi_extents.html:41
-#, fuzzy
 msgid "Add File Extent"
 msgstr "Tambahkan ekstensi perangkat"
 
 #: services/nav.py:118
-#, fuzzy
 msgid "View File Extents"
 msgstr "Lihat Semua Ekstensi"
 
@@ -3207,7 +3182,6 @@ msgid "Settings"
 msgstr "Pengaturan"
 
 #: services/nav.py:186
-#, fuzzy
 msgid "Management"
 msgstr "Manajemen iSCSI"
 
@@ -3521,12 +3495,10 @@ msgstr ""
 #~ "oleh Windows. Tidak direkomendasikan untuk berbagi dengan komputer Mac."
 
 #: sharing/models.py:189
-#, fuzzy
 msgid "Enable .AppleDouble"
 msgstr "Tanpa .AppleDouble"
 
 #: sharing/models.py:190
-#, fuzzy
 msgid ""
 "This will enable automatic creation of the .AppleDouble directories. This "
 "option should be used if files are accessed by Mac computers."
@@ -3700,7 +3672,6 @@ msgid "Sharing"
 msgstr "Berbagi"
 
 #: storage/forms.py:105
-#, fuzzy
 msgid "Enter positive number (optionally suffixed by K, M, G, T), or, 0"
 msgstr "Masukkan nomor positif (opsionalnya diakhiri dengan M, G, T), atau 0"
 
@@ -3725,7 +3696,6 @@ msgid "Specify custom path"
 msgstr ""
 
 #: storage/forms.py:163
-#, fuzzy
 msgid "Volume add"
 msgstr "Nama volume"
 
@@ -3862,7 +3832,6 @@ msgid "Reserved space for this dataset and all children"
 msgstr "Tempat yang telah dipesan untuk dataset ini dan semua anak-anaknya"
 
 #: storage/forms.py:716
-#, fuzzy
 msgid ""
 "Dataset names must begin with an alphanumeric character and may only contain "
 "\"-\", \"_\", \":\" and \".\"."
@@ -3891,7 +3860,6 @@ msgstr "Tempat yang telah dipesan untuk dataset ini"
 #~ msgstr "Ukuran untuk Volume ZFS ini"
 
 #: storage/forms.py:846
-#, fuzzy
 msgid "Example: 1g"
 msgstr "0 = tak ada; contoh: 1g"
 
@@ -4193,7 +4161,6 @@ msgstr "Host-host Replikasi Jarak Jauh"
 
 #: storage/models.py:657 storage/models.py:718
 #: templates/storage/replications.html:20 templates/storage/tasks.html:21
-#, fuzzy
 msgid "Filesystem/Volume"
 msgstr "Tipe sistem berkas"
 
@@ -4209,7 +4176,6 @@ msgid "Remote Host"
 msgstr "Host Jarak Jauh"
 
 #: storage/models.py:669
-#, fuzzy
 msgid "Remote ZFS filesystem name"
 msgstr "Sistem berkas ZFS jarak jauh"
 
@@ -4312,13 +4278,11 @@ msgid "View Snapshots"
 msgstr "Lihat Semua Snapshot"
 
 #: storage/nav.py:34
-#, fuzzy
 msgid "View ZFS Scrubs"
 msgstr "Lihat Semua Grup"
 
 #: storage/nav.py:41 templates/storage/volumes.html:4
 #: templates/storage/volumes.html.py:6
-#, fuzzy
 msgid "Volume Manager"
 msgstr "Nama volume"
 
@@ -4376,7 +4340,6 @@ msgid "Volume successfully added."
 msgstr "Volume berhasil ditambahkan."
 
 #: storage/views.py:254
-#, fuzzy
 msgid "S.M.A.R.T. Extra Options"
 msgstr "Opsi tambahan S.M.A.R.T"
 
@@ -4479,12 +4442,10 @@ msgid "Language (Require UI reload)"
 msgstr "Bahasa (Dibutuhkan memuat ulang UI)"
 
 #: system/forms.py:214
-#, fuzzy
 msgid "You must specify a number between 1 and 65535, inclusive."
 msgstr "Nilai ini harus diantara 0 dan 65535, inklusif."
 
 #: system/forms.py:216
-#, fuzzy
 msgid "Number is required."
 msgstr "Kotak ini harus diisi."
 
@@ -4526,12 +4487,10 @@ msgid "SHA256 sum for the image"
 msgstr "Jumlah SHA256 untuk image"
 
 #: system/forms.py:538
-#, fuzzy
 msgid "Invalid firmware"
 msgstr "Firmware atau cheksum yang invalid"
 
 #: system/forms.py:544
-#, fuzzy
 msgid "Invalid checksum"
 msgstr "Firmware atau cheksum yang invalid"
 
@@ -4554,7 +4513,6 @@ msgid "Protocol"
 msgstr "Protokol"
 
 #: system/models.py:50
-#, fuzzy
 msgid "WebGUI Address"
 msgstr "Alamat IPv4"
 
@@ -5123,7 +5081,6 @@ msgid "Delete Group"
 msgstr "Hapus Grup"
 
 #: templates/account/bsdgroups.html:51
-#, fuzzy
 msgid "There are no user defined groups."
 msgstr "Ada kelompok pengguna tidak didefinisikan."
 
@@ -5140,7 +5097,6 @@ msgstr "Modifikasi Pengguna"
 
 #: templates/account/bsdusers.html:47 templates/account/bsdusers.html.py:49
 #: templates/account/bsdusers.html:126 templates/account/bsdusers.html:128
-#, fuzzy
 msgid "Auxiliary Groups"
 msgstr "Grup Cadangan"
 
@@ -5461,7 +5417,6 @@ msgid "Plugin info"
 msgstr ""
 
 #: templates/plugins/index.html:39
-#, fuzzy
 msgid "Edit Plugin"
 msgstr "Sunting Portal"
 
@@ -5498,22 +5453,18 @@ msgid "Please wait..."
 msgstr "Silahkan tunggu..."
 
 #: templates/plugins/mountpoints.html:19
-#, fuzzy
 msgid "Edit Mount Point"
 msgstr "Poin Mount"
 
 #: templates/plugins/mountpoints.html:25
-#, fuzzy
 msgid "Delete Mount Point"
 msgstr "Poin Mount"
 
 #: templates/plugins/mountpoints.html:32
-#, fuzzy
 msgid "No mount points defined"
 msgstr "Tidak ada CronJob yang didefinisikan"
 
 #: templates/plugins/mountpoints.html:38 templates/plugins/mountpoints.html:40
-#, fuzzy
 msgid "Add Mount Point"
 msgstr "Poin Mount"
 
@@ -5582,7 +5533,6 @@ msgid "NFS Settings"
 msgstr "Pengaturan NFS"
 
 #: templates/services/core.html:103 templates/services/core.html.py:105
-#, fuzzy
 msgid "Plugins Settings"
 msgstr "Pengaturan AFP"
 
@@ -5636,7 +5586,6 @@ msgid "Portals"
 msgstr "Portal"
 
 #: templates/services/iscsi.html:14
-#, fuzzy
 msgid "Authorized Initiators"
 msgstr "Inisiator yang Berhak"
 
@@ -5656,7 +5605,6 @@ msgid "Associated Targets"
 msgstr "Target Terasosiasi"
 
 #: templates/services/iscsi_assoctargets.html:31
-#, fuzzy
 msgid "No associated targets defined"
 msgstr "Tidak ada target yang didefinisikan"
 
@@ -5676,7 +5624,6 @@ msgstr "Tidak ada target yang didefinisikan"
 #~ msgstr "Jaringan yang Berhak"
 
 #: templates/services/iscsi_authini.html:35
-#, fuzzy
 msgid "No authorized initiators defined"
 msgstr "Inisiator yang Berhak"
 
@@ -5684,7 +5631,6 @@ msgstr "Inisiator yang Berhak"
 #~ msgstr "Tambahkan Inisiator yang Berhak"
 
 #: templates/services/iscsi_dextents.html:33
-#, fuzzy
 msgid "No device extents defined"
 msgstr "Tidak ada target yang didefinisikan"
 
@@ -5692,12 +5638,10 @@ msgstr "Tidak ada target yang didefinisikan"
 #~ msgstr "Tambahkan Ekstensi"
 
 #: templates/services/iscsi_extents.html:5
-#, fuzzy
 msgid "File Extent"
 msgstr "Ekstensi Perangkat"
 
 #: templates/services/iscsi_extents.html:33
-#, fuzzy
 msgid "No extents defined"
 msgstr "Tidak ada target yang didefinisikan"
 
@@ -5716,7 +5660,6 @@ msgstr ""
 #~ msgstr "Hapus Portal"
 
 #: templates/services/iscsi_portals.html:39
-#, fuzzy
 msgid "No portals defined"
 msgstr "Tidak ada target yang didefinisikan"
 
@@ -5730,7 +5673,6 @@ msgstr "Tidak ada target yang didefinisikan"
 #~ msgstr "Tambahkan Target"
 
 #: templates/services/plugins.html:13 templates/services/plugins.html.py:15
-#, fuzzy
 msgid "View Mount Points"
 msgstr "Poin Mount"
 
@@ -5772,7 +5714,6 @@ msgid "All the files within the plugins jail will be permanently deleted."
 msgstr ""
 
 #: templates/services/pluginsjail_edit.html:12
-#, fuzzy
 msgid "Delete Plugins Jail"
 msgstr "Hapus berkas pokok"
 
@@ -5783,17 +5724,14 @@ msgstr "Hapus berkas pokok"
 #~ msgstr "Berbagi Aktif"
 
 #: templates/sharing/apple.html:7
-#, fuzzy
 msgid "There are no active Apple (AFP) shares."
 msgstr "Tidak ada Berbagi Apple yang aktif."
 
 #: templates/sharing/apple.html:29
-#, fuzzy
 msgid "Edit Apple (AFP) Share"
 msgstr "Sunting Berbagi Apple"
 
 #: templates/sharing/apple.html:35
-#, fuzzy
 msgid "Delete Apple (AFP) Share"
 msgstr "Hapus Berbagi Apple"
 
@@ -5801,7 +5739,6 @@ msgstr "Hapus Berbagi Apple"
 #~ msgstr "Tidak ada berbagi yang didefinisikan"
 
 #: templates/sharing/apple.html:49 templates/sharing/apple.html.py:51
-#, fuzzy
 msgid "Add Apple (AFP) Share"
 msgstr "Tambahkan Berbagi Apple"
 
@@ -5821,7 +5758,6 @@ msgid "Windows (SMB)"
 msgstr "Tambahkan Berbagi Windows (SMB)"
 
 #: templates/sharing/unix.html:7
-#, fuzzy
 msgid "There are no active UNIX (NFS) shares."
 msgstr "Tidak ada Berbagi UNIX yang aktif disini."
 
@@ -5829,17 +5765,14 @@ msgstr "Tidak ada Berbagi UNIX yang aktif disini."
 #~ msgstr "Titik Mount"
 
 #: templates/sharing/unix.html:29
-#, fuzzy
 msgid "Edit UNIX (NFS) Share"
 msgstr "Sunting Berbagi NFS"
 
 #: templates/sharing/unix.html:35
-#, fuzzy
 msgid "Delete UNIX (NFS) Share"
 msgstr "Hapus Berbagi NFS"
 
 #: templates/sharing/unix.html:49 templates/sharing/unix.html.py:51
-#, fuzzy
 msgid "Add UNIX (NFS) Share"
 msgstr "Tambahkan Berbagi UNIX"
 
@@ -5989,7 +5922,6 @@ msgstr ""
 #~ msgstr "Tidak ada replikasi ZFS yang tersedia"
 
 #: templates/storage/scrub.html:42
-#, fuzzy
 msgid "No scrub tasks defined."
 msgstr "Tidak ada rsync yang didefinisikan"
 
@@ -5998,7 +5930,6 @@ msgid "Add ZFS Scrub Task"
 msgstr ""
 
 #: templates/storage/scrub.html:50
-#, fuzzy
 msgid "Add ZFS Scrub"
 msgstr "Tambah ZFS Volume"
 
@@ -6088,7 +6019,6 @@ msgstr "setiap hari"
 #~ msgstr "pada setiap"
 
 #: templates/storage/tasks.html:147
-#, fuzzy
 msgid "There are no periodic snapshots scheduled."
 msgstr "Tidak ada snapshot periodik yang dijadwal"
 
@@ -6154,7 +6084,6 @@ msgstr "Hancurkan Dataset"
 #~ msgstr "Tidak ada volume yang didefinisikan"
 
 #: templates/storage/wizard.html:27
-#, fuzzy
 msgid "Volume to extend"
 msgstr "Volume-Volume"
 
@@ -6195,7 +6124,7 @@ msgid "Replace Disk"
 msgstr "Ganti cakram"
 
 #: templates/storage/zvols.html:3
-#, fuzzy, python-format
+#, python-format
 msgid "Create ZFS volume on %(name)s"
 msgstr "Buat ZFS Volume"
 
@@ -6225,7 +6154,6 @@ msgstr "Perbaharui Firmware"
 
 #: templates/system/advanced_edit.html:39
 #: templates/system/advanced_edit.html:41
-#, fuzzy
 msgid "Import Plugins Jail"
 msgstr "Hapus berkas pokok"
 
@@ -6238,17 +6166,14 @@ msgid "Are you sure you want to restore to factory config?"
 msgstr "Apakan anda yakin ingin mengembalikan ke pengaturan asal?"
 
 #: templates/system/cronjob.html:41
-#, fuzzy
 msgid "No cron jobs defined."
 msgstr "Tidak ada CronJob yang didefinisikan"
 
 #: templates/system/cronjob.html:47
-#, fuzzy
 msgid "Add a cron job"
 msgstr "Tambahkan CronJob"
 
 #: templates/system/cronjob.html:49
-#, fuzzy
 msgid "Add cron job"
 msgstr "Tambahkan CronJob"
 
@@ -6271,17 +6196,14 @@ msgid "iBurst"
 msgstr ""
 
 #: templates/system/ntpserver.html:38
-#, fuzzy
 msgid "No NTP servers defined."
 msgstr "Tidak ada namaserver yang didefinisikan"
 
 #: templates/system/ntpserver.html:44
-#, fuzzy
 msgid "Add NTP server"
 msgstr "Server NTP 1"
 
 #: templates/system/ntpserver.html:46
-#, fuzzy
 msgid "Add NTP Server"
 msgstr "Server NTP 1"
 
@@ -6304,22 +6226,18 @@ msgid "History"
 msgstr "Direktori"
 
 #: templates/system/rsync.html:5
-#, fuzzy
 msgid "Local Path"
 msgstr "Master Lokal"
 
 #: templates/system/rsync.html:6
-#, fuzzy
 msgid "Remote"
 msgstr "Hilangkan"
 
 #: templates/system/rsync.html:48
-#, fuzzy
 msgid "No rsync tasks defined."
 msgstr "Tidak ada rsync yang didefinisikan"
 
 #: templates/system/rsync.html:54
-#, fuzzy
 msgid "Add rsync task"
 msgstr "Tambahkan Rsync"
 
@@ -6360,32 +6278,26 @@ msgid "Unknown"
 msgstr "Tidak diketahui"
 
 #: templates/system/smarttest.html:38
-#, fuzzy
 msgid "No S.M.A.R.T. tests defined"
 msgstr "Tidak ada target yang didefinisikan"
 
 #: templates/system/smarttest.html:44
-#, fuzzy
 msgid "Add S.M.A.R.T. Test"
 msgstr "S.M.A.R.T"
 
 #: templates/system/smarttest.html:46
-#, fuzzy
 msgid "Add S.M.A.R.T. test"
 msgstr "S.M.A.R.T"
 
 #: templates/system/sysctl.html:34
-#, fuzzy
 msgid "No sysctl defined."
 msgstr "Tidak ada rsync yang didefinisikan"
 
 #: templates/system/sysctl.html:40
-#, fuzzy
 msgid "Add sysctl"
 msgstr "Tambahkan Rsync"
 
 #: templates/system/sysctl.html:42
-#, fuzzy
 msgid "Add Sysctl"
 msgstr "Tambahkan Rsync"
 
@@ -6418,17 +6330,14 @@ msgid "Connected through"
 msgstr ""
 
 #: templates/system/tunable.html:34
-#, fuzzy
 msgid "No tunable setting defined."
 msgstr "Tidak ada target yang didefinisikan"
 
 #: templates/system/tunable.html:40
-#, fuzzy
 msgid "Add Tunable"
 msgstr "Tambahkan Target"
 
 #: templates/system/tunable.html:42
-#, fuzzy
 msgid "Add Loader"
 msgstr "Tambahkan Portal"
 
@@ -6484,19 +6393,15 @@ msgstr "Kritikal"
 #~ msgid "Selected"
 #~ msgstr "Terpilih"
 
-#, fuzzy
 msgid "SHA256 sum for the PBI file"
 msgstr "Jumlah SHA256 untuk image"
 
-#, fuzzy
 msgid "Plugin uname"
 msgstr "Nama domain"
 
-#, fuzzy
 msgid "Path to plugin"
 msgstr "Path ke poin mount"
 
-#, fuzzy
 msgid "Control Plugins"
 msgstr "Servis Kontrol"
 
@@ -6521,27 +6426,21 @@ msgstr "Servis Kontrol"
 #~ msgid "Service Pack image to be installed"
 #~ msgstr "Image Service Pack yang akan dipasang"
 
-#, fuzzy
 msgid "Invalid service pack"
 msgstr "Service Pack atau checksum yang invalid"
 
-#, fuzzy
 msgid "View Cron Jobs"
 msgstr "CronJobs"
 
-#, fuzzy
 msgid "View Rsync Tasks"
 msgstr "Lihat Cakram"
 
-#, fuzzy
 msgid "View S.M.A.R.T. Tests"
 msgstr "Pengaturan S.M.A.R.T"
 
-#, fuzzy
 msgid "View Sysctls"
 msgstr "Lihat Cakram"
 
-#, fuzzy
 msgid "View Tunables"
 msgstr "Lihat Semua Pengguna"
 
@@ -6671,7 +6570,6 @@ msgstr "Berbagi UNIX"
 msgid "SMB Shares"
 msgstr "Berbagi UNIX"
 
-#, fuzzy
 msgid "NFS Share"
 msgstr "Sunting Berbagi NFS"
 
@@ -6688,11 +6586,9 @@ msgstr "Sunting Berbagi NFS"
 #~ msgid "NTP server 3"
 #~ msgstr "Server NTP 3"
 
-#, fuzzy
 msgid "Loader"
 msgstr "Beban Rata-rata"
 
-#, fuzzy
 msgid "Loaders"
 msgstr "Beban Rata-rata"
 
@@ -6717,7 +6613,6 @@ msgstr "Sunting Cakram"
 #~ msgid "Export Volume"
 #~ msgstr "Ekspor Volume"
 
-#, fuzzy
 msgid "Add loader"
 msgstr "Tambahkan Portal"
 
@@ -7024,7 +6919,6 @@ msgid "Read-Only"
 msgstr "Baca-Saja"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Tipe sistem berkas"
 
@@ -7046,7 +6940,6 @@ msgid "Jail successfully started."
 msgstr "%s berhasil diperbaharui."
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "Dataset berhasil disuntung."
 
@@ -7288,7 +7181,6 @@ msgid "Set this if you want to allow Trusted Domains."
 msgstr ""
 
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "Jumlah server"
 
@@ -9771,7 +9663,6 @@ msgid "IPv6 network range for jails and plugins"
 msgstr ""
 
 #: jails/nav.py:70
-#, fuzzy
 msgid "Add Jails"
 msgstr "Tambahkan %s"
 
@@ -9923,7 +9814,6 @@ msgid "Certificate"
 msgstr "Sertifikat SSL"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Kata sandi root"
 
@@ -9964,7 +9854,6 @@ msgstr "Nama Pengontrol Domain"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "Sertifikat SSL"
 
@@ -10353,7 +10242,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Inisiator"
 
@@ -11635,7 +11523,6 @@ msgstr "Ukuran Blok Logikal"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Nama domain"
 
@@ -11662,7 +11549,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Snapshot"
 
@@ -11756,7 +11642,6 @@ msgid "Boot Environments successfully deleted."
 msgstr "Snapshot berhasil dihapus."
 
 #: system/alertmods/boot_volume_status.py:28
-#, fuzzy
 msgid "The boot volume status is %(status)s"
 msgstr "Status dari volume %s adalah baik"
 
@@ -12236,7 +12121,6 @@ msgstr ""
 "Nama Induk akan ditambahkan secara otomatis ketika dimulai tanpa 'iqn.'."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Ganti"
 
@@ -12338,7 +12222,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "Perubahan anda berhasil diperbaharui!"
 
@@ -13045,33 +12928,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Alamat IP pengontrol"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Host Jarak Jauh"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Nama Pengguna"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Ganti kata sandi"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "Versi OS"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Pengaturan Global"
 
@@ -13685,3 +13562,552 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:655
+#, fuzzy
+msgid "Volume is not encrypted."
+msgstr "Volume-Volume"
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Nama Pengguna"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Nama Grup"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Nama Pengontrol Domain"
+
+#: jails/forms.py:259
+msgid "You can either enter dhcp or static ip but not both"
+msgstr ""
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Nama pengguna telah terdaftar. Cari yg lain."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "Hanya boleh huruf, angka dan lambang @/./+/-/_"
+
+#: services/forms.py:1505
+#, fuzzy
+msgid "Zvol \"%s\" does not exist"
+msgstr "Path ekstensi"
+
+#: services/models.py:148
+#: services/models.py:304
+#, fuzzy
+msgid ""
+"Use this option to override the username ('nobody' by default) which will be "
+"used for access to services which are specified as guest. Whatever "
+"privileges this user has will be available to any client connecting to the "
+"guest service. This user must exist in the password file, but does not "
+"require a valid login. The user root cannot be used as guest account."
+msgstr ""
+"Gunakan opsi ini untuk mengesampingkan nama pengguna ('nobody' secara "
+"default) yang akan digunakan untuk mengakses servis sebagai Tamu. Apapun "
+"haknya pengguna ini akan ada pada setiap klien yang terhubung pada servis "
+"Tamu. Pengguna ini harus asa pada berkas kata sandi, tetapi tidak perlu "
+"login. Pengguna root tidak dapat digunakan sebagai akun Tamu."
+
+#: services/models.py:177
+#, fuzzy
+msgid "These parameters are added to the [global] section of smb.conf"
+msgstr "Parameter tersebut ditambahkan ke bagian [Global] dari smb.conf"
+
+#: services/models.py:220
+msgid ""
+"Specifies whether Samba should use (expensive) hostname lookups or use IP "
+"addresses instead. An example place where hostname lookups are currently "
+"used is when checking the hosts deny and hosts allow."
+msgstr ""
+
+#: services/models.py:244
+msgid ""
+"This boolean parameter controls the behaviour of smbd(8) when receiving a "
+"protocol request of \"open for execution\" from a Windows client. With Samba "
+"3.6 and older, the execution right in the ACL was not checked, so a client "
+"could execute a file even if it did not have execute rights on the file. In "
+"Samba 4.0, this has been fixed, so that by default, i.e. when this parameter "
+"is set to \"False\", \"open for execution\" is now denied when execution "
+"permissions are not present. If this parameter is set to \"True\", Samba "
+"does not check execute permissions on \"open for execution\", thus re-"
+"establishing the behavior of Samba 3.6 "
+msgstr ""
+
+#: services/models.py:265
+msgid ""
+"IP addresses to bind to. If none specified, all available interfaces that "
+"are up will be listened on."
+msgstr ""
+
+#: services/models.py:296
+#, fuzzy
+msgid "Allows guest access to all Apple shares on this box."
+msgstr "Izinkan akses Tamu ke semua berbagi Apple di kotak ini."
+
+#: services/models.py:315
+msgid ""
+"IP addresses to advertise and listens to. If none specified, advertise the "
+"first IP address of the system, but to listen for any incoming request."
+msgstr ""
+
+#: services/models.py:333
+#, fuzzy
+msgid "Enable/disable home directories for AFP user."
+msgstr "Menyalakan/mematikan direktori home untuk pengguna samba"
+
+#: services/models.py:343
+msgid "When set, overrides the default Home Share Name."
+msgstr ""
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:357
+#, fuzzy
+msgid "These parameters are added to the [Global] section of afp.conf"
+msgstr "Parameter tersebut ditambahkan ke bagian [Global] dari smb.conf"
+
+#: services/models.py:362
+msgid ""
+"How to map the effective permissions of authenticated users: Rights ("
+"default, Unix-style permissions), Mode (ACLs), or None"
+msgstr ""
+
+#: services/models.py:383
+#, fuzzy
+msgid ""
+"Specifies how many servers to create. There should be enough to handle the "
+"maximum level of concurrency from clients, typically four to six."
+msgstr ""
+"Tentukan berapa banyak server yang dibuat. Harus ada cukup untuk menangani "
+"konkurensi tingkat maksimum dari klien, biasanya 4-6."
+
+#: services/models.py:421
+msgid ""
+"Select the IP addresses to listen to for NFS requests. If left unchecked, "
+"NFS will listen on all available addresses."
+msgstr ""
+
+#: services/models.py:442
+msgid ""
+"Forces the rpc.statd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:451
+msgid ""
+"Force the rpc.lockd daemon to bind to the specified port, for both IPv4 and "
+"IPv6 address families."
+msgstr ""
+
+#: services/models.py:458
+msgid ""
+"Ignore the group membership sent on the wire by the NFS client and look up "
+"the group membership on the server.  Note that this option is mutually "
+"incompatible with the NFSv3 ownership model for NFSv4."
+msgstr ""
+
+#: services/models.py:467
+msgid "Enable/disable mountd logging into syslog."
+msgstr ""
+
+#: services/models.py:473
+msgid "Enable/disable statd and lockd logging into syslog."
+msgstr ""
+
+#: services/models.py:565
+#, fuzzy
+msgid ""
+"Size of extent: 0 means auto, a raw number is bytes, or suffix with KB, MB, "
+"or TB for convenience."
+msgstr ""
+"Ukuran ekstensi, 0 berarti otomatis, angka biasa berarti byte, atau ditambah "
+"akhiran KB, MB, TB untuk mudahnya."
+
+#: services/models.py:573
+#, fuzzy
+msgid ""
+"Logical block length (512 by default). The recommended length for "
+"compatibility is 512."
+msgstr ""
+"Anda dapat menentukan panjang blok logikal (512 secara default). Panjang "
+"yang disarankan untuk kompatibilitas adalah 512."
+
+#: services/models.py:581
+msgid ""
+"By default, the physical blocksize is reported as the ZFS block size, which "
+"can be up to 128K. Some initiators do not work with values above 4K. "
+"Checking this disables reporting the physical blocksize."
+msgstr ""
+
+#: services/models.py:597
+#: services/models.py:700
+#, fuzzy
+msgid "A description can be entered here for your reference."
+msgstr "Anda bisa memasukkan sebuah deskripsi disini untuk referensi."
+
+#: services/models.py:626
+msgid ""
+"RPM reported to initiators for this extent/LUN. The default is SSD because "
+"Windows will attempt to defrag non SSD devices.  This is a pathological "
+"worst-case situation for ZFS.  VMWare gives the option to use SSD LUNs as "
+"swap devices. There is some value to picking a non-SSD RPM if your extent is "
+"indeed not SSDs and the initiator will be VMWare."
+msgstr ""
+
+#: services/models.py:1441
+#, fuzzy
+msgid "Override the file creation mask (077 by default)."
+msgstr ""
+"Gunakan opsi ini untuk mengesampingkan pembuatan masker file (077 secara "
+"default)"
+
+#: services/models.py:1449
+#, fuzzy
+msgid "Override the directory creation mask (077 by default)."
+msgstr ""
+"Gunakan opsi ini untuk mengesampinkan pembuatan masker direktori (0777 "
+"secara default)."
+
+#: services/models.py:1479
+#, fuzzy
+msgid ""
+"Cause the server to display the network information for the specified "
+"address to the client, on the assumption that IP address or DNS host is "
+"acting as a NAT gateway or port forwarder for the server."
+msgstr ""
+"Karena server menampilkan informasi jaringan untuk alamat IP spesifik ke "
+"klien, dalam asumsi bahwa alamat IP atau host DNS tersebut berperan sebagai "
+"gateway NAT atau port pelanjut untuk server."
+
+#: services/models.py:1935
+#, fuzzy
+msgid "Control the access a remote host has to this module"
+msgstr "Kontrol akses host ada pada modul ini"
+
+#: services/models.py:1941
+#, fuzzy
+msgid "Maximum number of simultaneous connections. Default is 0 (unlimited)."
+msgstr "Jumlah koneksi bersamaan maksimal. 0 secara default (tak terbatas)"
+
+#: services/models.py:1948
+#, fuzzy
+msgid ""
+"Specify the user name for file transfers to and from that module. In "
+"combination with the 'Group' option, this determines which file permissions "
+"are available. Leave this field empty to use default settings."
+msgstr ""
+"Opsi ini menentukan nama pengguna tujuan transfer berkas dan dari itu modul "
+"perlu mengambil tempat. Dalam kombinasi dengan opsi 'Grup' ini menentukan "
+"hak akses berkas yang tersedia. Tinggalkan kolom ini kosong untuk "
+"menggunakan pengaturan asal."
+
+#: services/models.py:1958
+#, fuzzy
+msgid ""
+"Specify the group name for file transfers to and from that module. Leave "
+"this field empty to use default settings."
+msgstr ""
+"Opsi ini menentukan nama grup kemana berkas akan ditransfer dan modul yang "
+"perlu dipakai. Tinggalkan kolom ini kosong untuk menggunakan pengaturan asal"
+
+#: services/models.py:1964
+#, fuzzy
+msgid ""
+"This option is a comma, space, or tab delimited set of hosts which are "
+"permitted to access this module. You can specify the hosts by name or IP "
+"number. Leave this field empty to use default settings."
+msgstr ""
+"Opsi ini adalah sebuah koma, spasi, atau tab untuk membatasi host yang "
+"diizinkan untuk mengakses modul ini. Anda dapat menentukan host melalui nama "
+"atau nomor IP. Tinggalkan kolom ini kosong untuk menggunakan pengaturan asal"
+
+#: services/models.py:1972
+#, fuzzy
+msgid ""
+"A comma, space, or tab-delimited set of hosts which are NOT permitted to "
+"access this module. Where the lists conflict, the allow list takes "
+"precedence. In the event that it is necessary to deny all by default, use "
+"the keyword ALL (or the netmask 0.0.0.0/0) and then explicitly specify in "
+"the hosts allow parameter those hosts that should be permitted access. Leave "
+"this field empty to use default settings."
+msgstr ""
+"Opsi ini adalah sebuah koma, spasi atau tab yang menentukan host yang TIDAK "
+"diizinkan untuk mengakses modul ini. Ketika terjadi konflik, daftar "
+"diutamakan. Dalam beberapa hal perlu untuk menolak semua secara asal, "
+"gunakan kata kunci ALL (atau netmask 0.0.0.0/0) dan secara ekplisit tentukan "
+"parameter host yang diizinkan ketika seharusnya diizinkan untuk mengakses. "
+"Tinggalkan kolom ini kosong untuk menggunakan pengaturan asal"
+
+#: services/models.py:1984
+#, fuzzy
+msgid ""
+"These parameters will be added to the module configuration in rsyncd.conf."
+msgstr ""
+"Parameter tersebut akan ditambahkan ke pengaturan modul pada rsyncd.conf"
+
+#: services/models.py:2006
+#, fuzzy
+msgid ""
+"Set the interval between disk checks to N minutes. The default is 30 minutes."
+msgstr ""
+"Atur interval antar pengecekan cakram ke N menit. 30 menit secara default"
+
+#: services/models.py:2018
+#, fuzzy
+msgid ""
+"Report if the temperature has changed by at least N degrees Celsius since "
+"the last report. 0 to disable."
+msgstr ""
+"Laporkan jika temperatur berubah setidaknya N derajat Celcius sejak "
+"pelaporan terakhir. 0 untuk mematikan"
+
+#: services/models.py:2024
+#, fuzzy
+msgid ""
+"Report as informational in the system log if the temperature is greater or "
+"equal than N degrees Celsius. 0 to disable."
+msgstr ""
+"Laporkan jika temperatur lebih besar atau sama dengan N derajat Celcius. 0 "
+"untuk mematikan"
+
+#: services/models.py:2031
+#, fuzzy
+msgid ""
+"Report as critical in the system log and send an email if the temperature is "
+"greater or equal than N degrees Celsius. 0 to disable."
+msgstr ""
+"Laporkan jika temperatur lebih besar atau sama dengan N derajat Celcius. 0 "
+"untuk mematikan"
+
+#: services/models.py:2039
+#, fuzzy
+msgid "Destination email address. Separate email addresses with commas."
+msgstr "Alamat email tujuan. Pisahkan alamat email dengan titik koma"
+
+#: services/models.py:2184
+msgid ""
+"The port on which WebDAV will run.<br>Do not use a port that is already in "
+"use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2193
+msgid ""
+"The port on which Secure WebDAV will run.<br>Do not use a port that is "
+"already in use by another service (e.g. 22 for SSH)."
+msgstr ""
+
+#: services/models.py:2210
+msgid ""
+"Type of HTTP Authentication for WebDAV<br>Basic Auth: Password is sent over "
+"the network as plaintext (Avoid if HTTPS is disabled) <br>Digest Auth: The "
+"hash of the password is sent over the network (more secure)."
+msgstr ""
+
+#: sharing/admin.py:80
+msgid ""
+"full_audit VFS object is known to have file transfer issues with Windows 10. "
+"Do you wish to continue?"
+msgstr ""
+
+#: sharing/forms.py:464
+msgid "This option can only be used for datasets."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: storage/admin.py:144
+#: storage/forms.py:1196
+#: storage/forms.py:1429
+#: storage/forms.py:1513
+#, fuzzy
+msgid "Comments"
+msgstr "Komentar"
+
+#: storage/forms.py:2011
+#, fuzzy
+msgid "Setup mode"
+msgstr "Modus daya"
+
+#: storage/forms.py:2013
+#, fuzzy
+msgid "Manual"
+msgstr "Perbaharui"
+
+#: storage/forms.py:2014
+#, fuzzy
+msgid "Semi-automatic"
+msgstr "Otomatis"
+
+#: storage/forms.py:2025
+#, fuzzy
+msgid "Remote HTTP/HTTPS Port"
+msgstr "Host Jarak Jauh"
+
+#: storage/forms.py:2030
+#, fuzzy
+msgid "Remote HTTPS"
+msgstr "Host Jarak Jauh"
+
+#: storage/forms.py:2035
+#, fuzzy
+msgid "Remote Auth Token"
+msgstr "Kunci host jarak jauh"
+
+#: storage/forms.py:2222
+msgid "I'm aware this will destroy snapshots of this zvol"
+msgstr ""
+
+#: storage/forms.py:2187
+#, fuzzy
+msgid "Token is invalid."
+msgstr "Pengguna %s tidak valid."
+
+#: storage/forms.py:2191
+#, fuzzy
+msgid "Failed to connect to remote: %s"
+msgstr "Hapus Replikasi"
+
+#: system/forms.py:1003
+#, fuzzy
+msgid "Invalid syslog server format"
+msgstr "Service Pack atau checksum yang invalid"
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Modus Akses"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Rahasia"
+
+#: system/models.py:348
+msgid "Use FQDN for logging"
+msgstr ""
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Nama domain"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Service Pack atau checksum yang invalid"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Awalan invalid"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Kolom ini diperlukan"
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/forms.py:96
+#, fuzzy
+msgid "Folder \"%s\" does not exist."
+msgstr "Path ekstensi"
+
+#: tasks/models.py:52
+msgid "Push - From local to remote. Pull - From remote to local."
+msgstr ""
+
+#: tasks/views.py:53
+msgid "The cloud sync process has started"
+msgstr ""
+
+#: templates/storage/replication_datagrid.html:17
+#: templates/storage/replication_datagrid.html:19
+msgid "Temporary Auth Token"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "Apakan Anda akan menyalakan servis ini?"
